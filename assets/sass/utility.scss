@@ -1,0 +1,24 @@
+$corona-blue:#10AFE3;
+$dark-corona-blue:#00A6DD; 
+$darker-corona-blue:#0092d0;
+$shadow-blue:#1B5E9B;
+$thunder-yellow:#F9EA2A;
+$corona-brown:#885F25;
+$sand-yellow:#FBEF82;
+$main-font:'caslonantiqueregula';
+
+
+body{
+  font-family:$main-font;
+  color:$corona-brown;
+  font-size:28px;
+}
+
+a {
+  color:inherit;
+  &:hover,&:focus{
+    color:$thunder-yellow;
+    text-decoration:none;
+    transition:.3s;
+  }
+}
