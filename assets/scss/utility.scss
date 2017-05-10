@@ -1,19 +1,28 @@
+@font-face {
+  font-family: 'caslonantique';
+  src: url('/assets/fonts/caslonantique.ttf');
+}
 $corona-blue:#10AFE3;
 $hover-corona-blue:#06c0fe;
-$dark-corona-blue:#00A6DD; 
+$dark-corona-blue:#00A6DD;
 $darker-corona-blue:#0092d0;
 $shadow-blue:#1B5E9B;
 $thunder-yellow:#F9EA2A;
-$corona-brown:#885F25;
+$corona-brown:#6f4d2f;
 $sand-yellow:#FBEF82;
 
-$main-font:'caslonantiqueregula';
+$main-font:'caslonantique';
 
 
 body{
   font-family:$main-font;
   color:$corona-brown;
-  font-size:28px;
+  font-size:30px;
+  padding:0;
+  margin:0;
+  background-image: url("/assets/images/CEB_bolt_texture.png");
+  background-size: cover;
+  background-repeat: repeat;
 }
 
 a {
@@ -25,6 +34,21 @@ a {
     transition:.4s;
   }
 }
+
+h1{
+  font-family: $main-font;
+  color:$corona-brown;
+  margin-bottom: 30px;
+  letter-spacing: 5px;
+}
+
+
+.section-break{
+  background-color:$corona-brown;
+  height:1px;
+  border:0px;
+}
+
 
 @mixin hover($background-color){
   background-color:$background-color;
@@ -43,4 +67,49 @@ a {
   &:hover{
     @include hover($hover-corona-blue);
   }
+}
+
+
+
+/*MAINLY ON INDEX PAGE, WE WILL SEE IF THIS WORKS WELL ON EVERY OTHER PAGE */
+.main-video{
+  width:100%;
+  position: relative;
+  z-index: -10;
+  margin-top: -10%;
+}
+
+
+.video-section{
+  padding:0px;
+}
+
+.content-section{
+  height:100%;
+  padding:0;
+}
+
+.bands-in-town-table{
+  width: 100%;
+  font-size: 18px;
+
+  tr{
+    border-bottom: 1px solid rgba(130,130,130,.15);
+  }
+}
+
+.bands-btn{
+  margin-right: 10px;
+  font-size:13px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.first-section{
+  background-image: url(/assets/images/CEB_bolt_texture.png);
+  background-size: cover;
+  margin-top: -300px;
+  width: 100%;
+  height: 300px;
 }
