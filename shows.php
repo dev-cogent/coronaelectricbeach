@@ -19,37 +19,37 @@
   <div class="video-divider"></div>
 </section>
 
+<div class="main-info">
+  <section class="container content-section">
+    <?php
+    $url = 'http://api.bandsintown.com/artists/electricbeach/events.json?api_version=2.0&app_id=electricbeach';
+    $bandsInTown = curl($url);
+    ?>
+    <h1 class="text-center"> Upcoming Shows </h1>
+    <table class="bands-in-town-table">
+      <tbody>
+        <?php foreach($bandsInTown as $info){
+          echo'
+          <tr>
+            <td>'.$info['formatted_datetime'].'</td>
+            <td>'.$info['venue']['name'].'<p class="sub-text">w/'.$info['artists'][1]['name'].'</p></td>
+            <td>'.$info['formatted_location'].'</td>
+            <td>
+              <a href="'.$info['ticket_url'].'" target="_blank">
+                <button class="primary-button bands-btn">TICKETS </button>
+              </a>
+              <a href="'.$info['facebook_rsvp_url'].'" target="_blank">
+                <button class="primary-button bands-btn">RSVP</button>
+              </a>
+            </td>
+          </tr>';
+        }
 
-<section class="container content-section">
-  <?php
-  $url = 'http://api.bandsintown.com/artists/electricbeach/events.json?api_version=2.0&app_id=electricbeach';
-  $bandsInTown = curl($url);
   ?>
-  <h1 class="text-center"> Upcoming Shows </h1>
-  <table class="bands-in-town-table">
-    <tbody>
-      <?php foreach($bandsInTown as $info){
-        echo'
-        <tr>
-          <td>'.$info['formatted_datetime'].'</td>
-          <td>'.$info['venue']['name'].'<p class="sub-text">w/'.$info['artists'][1]['name'].'</p></td>
-          <td>'.$info['formatted_location'].'</td>
-          <td>
-            <a href="'.$info['ticket_url'].'" target="_blank">
-              <button class="primary-button bands-btn">TICKETS </button>
-            </a>
-            <a href="'.$info['facebook_rsvp_url'].'" target="_blank">
-              <button class="primary-button bands-btn">RSVP</button>
-            </a>
-          </td>
-        </tr>';
-      }
-
-?>
-    </tbody>
-  </table>
-</section>
-
+      </tbody>
+    </table>
+  </section>
+</div>
 
 
 
