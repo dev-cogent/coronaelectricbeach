@@ -52,7 +52,7 @@
 
 <?php
 function getTweets(){
-  include 'assets/php/TwitterAPIexchange.php';
+  include 'assets/php/TwitterAPIExchange.php';
   $settings = array(
           'oauth_access_token'        => "384983365-gLbEc6hVcsMWQJTuWf207sFRiGBZTk90c0quYuuR",
           'oauth_access_token_secret' => "mVWQuD8o8taJmz0auuembNnl33zeS6TjITTQTChKvSXhK",
