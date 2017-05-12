@@ -6,3 +6,32 @@
 .sub-text{
   font-size: 16px;
 }
+.social-icon-footer{
+  line-height:25px;
+  margin-right:10px;
+  border-radius: 21px;
+  width: 45px;
+  height: 42px;
+    .fa{
+    font-size:18px;
+    color:$corona-blue;
+    }
+}
+
+
+.footer-content {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+footer {
+  padding-top: 65px;
+  text-align: center;
+}
+
+.social-icons.social-icon-footer{
+  display:inline;
+
+}
