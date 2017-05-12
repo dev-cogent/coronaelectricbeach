@@ -4,14 +4,15 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
+  <?php include 'assets/html/head.html'?>
   <title>The HTML5 Herald</title>
+  <script src="/assets/js/lockscreen.js" charset="utf-8"></script>
   <meta name="description" content="Corona Electric Beach Official Page">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="/global/css/bootstrap.min.css">
   <link rel="stylesheet" href="/global/css/bootstrap-extend.min.css">
-    <link rel="stylesheet" href="assets/css/lockscreen.css">
+  <link rel="stylesheet" href="assets/css/lockscreen.css">
 
 
 

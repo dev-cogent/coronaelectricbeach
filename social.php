@@ -15,7 +15,7 @@
 <!-- END NAV BAR -->
 <section class="video-section">
   <video class="main-video" loop autoplay="autoplay">
-    <source src="/assets/videos/CEB alt logo top view water.mp4" type="video/mp4">
+    <source src="/assets/videos/CEB-water-view.mp4" type="video/mp4">
   </video>
   <div class="video-divider"></div>
 </section>
@@ -136,7 +136,7 @@ function linkTweetText($text){
 
 function getInstagramPhotos(){
   $token = '48128506.6d8ceff.687e9ca1da804f4db1e32c6acec6a953';
-  $url = 'https://api.instagram.com/v1/users/self/media/recent/?access_token='.$token;
+  $url = 'https://api.instagram.com/v1/users/self/media/recent/?count=12&access_token='.$token;
   $instagramInfo = curl($url);
   $instagramPhotos = new stdClass;
   foreach($instagramInfo['data'] as $info){
