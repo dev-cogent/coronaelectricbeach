@@ -7,15 +7,7 @@
   font-size: 16px;
 }
 .social-icon-footer{
-  line-height:25px;
-  margin-right:10px;
-  border-radius: 21px;
-  width: 45px;
-  height: 42px;
-    .fa{
-    font-size:18px;
-    color:$corona-blue;
-    }
+  margin-right:5px;
 }
 
 
@@ -24,6 +16,7 @@
     margin-right: auto;
     text-align: center;
     font-size: 18px;
+    padding-top: 15px;
 }
 
 footer {
@@ -33,5 +26,16 @@ footer {
 
 .social-icons.social-icon-footer{
   display:inline;
+}
+
+.insta-footer{
+  width: 35px;
+}
+.fb-footer{
+  width: 35px;
+
+}
+.twitt-footer{
+  width: 35px;
 
 }

@@ -85,16 +85,14 @@
 <footer>
   
    <div class="social-icons social-icon-footer">
-        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+       <img src="/assets/images/ig-logo-white.png" class="insta-logo-white insta-footer">
       </div>
       <div class="social-icons social-icon-footer">
-        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+         <img src="/assets/images/fb-logo-white.png" class="fb-logo-white fb-footer">
       </div>
       <div class="social-icons social-icon-footer">
-        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <img src="/assets/images/twitter-logo-white.png" class="twitter-logo-white twitt-footer">
       </div>
- 
-
 
     <div class="footer-content">
         <p>Relax Responsibly.® Corona Extra® Beer. Imported by Crown Imports, Chicago, IL</p>
