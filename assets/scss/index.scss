@@ -30,20 +30,12 @@ footer {
   height:30px;  
 }
 
+
+
 /*.social-icon-footer{
   display:inline;
   text-align: center;
   background-color: white;
   border-radius: 100px;
 } */
-
-.social-icon{
-  text-align:center;
-  background-color:white;
-  border-radius:100px;
-  &:hover{
-    @include hover($hover-corona-blue);
-  }
-
-}
 
