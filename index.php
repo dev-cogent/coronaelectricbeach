@@ -85,7 +85,29 @@
   </div>
 
 
+<footer>
+  
+   <div class="social-icons social-icon-footer">
+        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      </div>
+      <div class="social-icons social-icon-footer">
+        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      </div>
+      <div class="social-icons social-icon-footer">
+        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      </div>
+ 
 
+
+    <div class="footer-content">
+        <p>Relax Responsibly.® Corona Extra® Beer. Imported by Crown Imports, Chicago, IL</p>
+          <p><a target="_blank" href="https://www.coronausa.com/privacy">Privacy Policy</a>&nbsp;| 
+  <a target="_blank" href="mailto:contact@coronaelectricbeach.com">Contact</a> |
+  <a target="_blank" href="https://www.coronausa.com/terms">Terms and Conditions</a></p>
+  </div>
+  </div>
+
+  </footer>
 
 
 
