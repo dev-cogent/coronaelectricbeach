@@ -2,6 +2,12 @@
   font-family: 'caslonantique';
   src: url('/assets/fonts/caslonantique.ttf');
 }
+
+@font-face {
+  font-family: 'TradeGothicLT';
+  src: url('/assets/fonts/TradeGothicLT.ttf');
+}
+
 $corona-blue:#10AFE3;
 $hover-corona-blue:#06c0fe;
 $dark-corona-blue:#00A6DD;
@@ -12,8 +18,8 @@ $corona-brown:#6f4d2f;
 $sand-yellow:#FBEF82;
 
 
-$main-font:'caslonantique';
-$secondary-font:'Arial,sans-serif';
+$main-font:'caslonantique', sans-serif;
+$secondary-font: 'TradeGothicLT', 'Helvetica', sans-serif;
 
 body{
   font-family:$main-font;
