@@ -85,13 +85,13 @@
 <footer>
   
    <div class="social-icons social-icon-footer">
-       <img src="/assets/images/ig-logo-white.png" class="insta-logo-white insta-footer">
+        <a href="https://www.instagram.com/coronaelectricbeach/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
       </div>
       <div class="social-icons social-icon-footer">
-         <img src="/assets/images/fb-logo-white.png" class="fb-logo-white fb-footer">
+           <a  href="https://www.facebook.com/ElectricBeach/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
       </div>
       <div class="social-icons social-icon-footer">
-        <img src="/assets/images/twitter-logo-white.png" class="twitter-logo-white twitt-footer">
+         <a  href="https://twitter.com/ElectricBeach" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
       </div>
 
     <div class="footer-content">

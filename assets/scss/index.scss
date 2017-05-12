@@ -6,9 +6,6 @@
 .sub-text{
   font-size: 16px;
 }
-.social-icon-footer{
-  margin-right:5px;
-}
 
 
 .footer-content {
@@ -20,22 +17,33 @@
 }
 
 footer {
-  padding-top: 65px;
+  padding-top: 85px;
   text-align: center;
 }
 
-.social-icons.social-icon-footer{
+.social-icon-footer{
   display:inline;
+  line-height:25px;
+  margin-right:10px;
+  text-align: center;
+  width:30px;
+  height:30px;  
 }
 
-.insta-footer{
-  width: 35px;
-}
-.fb-footer{
-  width: 35px;
+/*.social-icon-footer{
+  display:inline;
+  text-align: center;
+  background-color: white;
+  border-radius: 100px;
+} */
+
+.social-icon{
+  text-align:center;
+  background-color:white;
+  border-radius:100px;
+  &:hover{
+    @include hover($hover-corona-blue);
+  }
 
 }
-.twitt-footer{
-  width: 35px;
 
-}
