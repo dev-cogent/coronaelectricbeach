@@ -17,9 +17,9 @@ $thunder-yellow:#F9EA2A;
 $corona-brown:#6f4d2f;
 $sand-yellow:#FBEF82;
 
+
 $main-font:'caslonantique', sans-serif;
 $secondary-font: 'TradeGothicLT', 'Helvetica', sans-serif;
-
 
 body{
   font-family:$main-font;
@@ -83,12 +83,22 @@ h1{
   width:100%;
   position: relative;
   z-index: -10;
-  margin-top: -10%;
+  margin-top: -15%;
 }
 
 
 .video-section{
   padding:0px;
+  width:100%;
+  overflow:hidden;
+  display:block;
+  height: 550px;
+    @media screen and (max-width: 1200px){
+      height:330px;
+    }
+    @media screen and (max-width: 450px){
+      height:165px;
+    }
 }
 
 .content-section{
@@ -113,10 +123,6 @@ h1{
 
 }
 
-.first-section{
-  background-image: url(/assets/images/CEB_bolt_texture.png);
-  background-size: cover;
-  margin-top: -300px;
-  width: 100%;
-  height: 300px;
+.main-info{
+  margin-top:25px;
 }
