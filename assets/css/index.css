@@ -20,7 +20,6 @@ body {
       font-size: 20px; } }
 
 a {
-  color: inherit;
   transition: .4s; }
   a:hover, a:focus {
     color: #F9EA2A;
@@ -142,4 +141,13 @@ footer {
   text-align: center;
   width: 30px;
   height: 30px; }
+
+a.hover-color {
+  color: #6f4d2f; }
+
+a.hover-color:hover {
+  color: #00A6DD;
+  text-decoration: none;
+  transition: .4s; }
+
 

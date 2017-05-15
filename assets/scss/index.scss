@@ -8,7 +8,6 @@
   font-size: 16px;
 }
 
-
 .footer-content {
     margin-left: auto;
     margin-right: auto;
@@ -31,12 +30,13 @@ footer {
   height:30px;  
 }
 
+a.hover-color{
+  color: $corona-brown;
+}
+  a.hover-color:hover{
+    color:$dark-corona-blue;
+    text-decoration:none;
+    transition:.4s;
+}
 
-
-/*.social-icon-footer{
-  display:inline;
-  text-align: center;
-  background-color: white;
-  border-radius: 100px;
-} */
 

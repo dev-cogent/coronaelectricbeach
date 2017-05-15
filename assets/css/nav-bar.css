@@ -20,7 +20,6 @@ body {
       font-size: 20px; } }
 
 a {
-  color: inherit;
   transition: .4s; }
   a:hover, a:focus {
     color: #F9EA2A;
