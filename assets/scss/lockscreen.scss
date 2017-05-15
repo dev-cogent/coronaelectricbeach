@@ -38,18 +38,67 @@ background-size: cover;
   }
 }
 
+
+@media (min-width: 375px) and (max-width: 740px) and (orientation:landscape){
+  input.year, input.day, input.month{
+    height: 95px;
+    width: 95px;
+    font-size: 36px;
+    line-height: 95px;
+  }
+  .lock-container{
+    margin-top: 0;
+  }
+  input[type="text"].year::-webkit-input-placeholder, input[type="text"].day::-webkit-input-placeholder, input[type="text"].month::-webkit-input-placeholder {
+    font-size: 30px !important;
+  }
+  .lockscreen-footer.landscape{
+    bottom: 17px;
+  }
+  .verify-text.landscape{
+    font-size: 19px;
+  }
+  .beats-text-header.landscape{
+    font-size: 38px;
+  }
+  .submit-btn-container.landscape {
+    margin-top: 2%;
+  }
+}
+
+@media (max-width: 340px){
+  .lock-container.small {
+    margin-top: 0;
+  }
+  input.year.small, input.day.small, input.month.small {
+    height: 80px;
+    width: 80px;
+    font-size: 36px;
+    line-height: 95px;
+  }
+
+}
 @media (max-width: 480px){
+  .row.lockscreen-view {
+    margin-right: 0;
+    margin-left: 0;
+  }
   .lock-container {
-  margin-top: 45%;
+  margin-top: 33%;
   }
   input.year, input.day, input.month{
     height: 95px;
     width: 95px;
+    font-size: 36px;
+    line-height: 95px;
   }
   input[type="text"].year::-webkit-input-placeholder, input[type="text"].day::-webkit-input-placeholder, input[type="text"].month::-webkit-input-placeholder {
-    font-size: 36px;
+    font-size: 30px !important;
+
   }
 }
+
+
 .circles-verify-container{
   margin-top: 3%;
 }
@@ -59,6 +108,7 @@ background-size: cover;
 .year, .day, .month {
   height: 125px;
   width: 125px;
+  line-height: 125px;
   border-radius: 50%;
   color: white;
   margin-right: 1%;
@@ -70,6 +120,7 @@ background-size: cover;
 input[type="text"].year::-webkit-input-placeholder, input[type="text"].day::-webkit-input-placeholder, input[type="text"].month::-webkit-input-placeholder {
   color: white;
   font-size: 45px;
+  vertical-align: middle;
   text-align: -webkit-center;
   opacity: 1;
 }
