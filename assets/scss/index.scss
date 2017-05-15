@@ -7,7 +7,29 @@
 .sub-text{
   font-size: 16px;
 }
+.video-banner {
+  // padding-top: 211px;
+  // padding-bottom: 211px;
+  // height: auto;
+}
 
+.main-video {
+  // display: block;
+  // width: 100%;
+  // height: auto;
+  // position: fixed;
+  // top: 50%;
+  // left: 50%;
+  // min-width: 100%;
+  // min-height: 100%;
+  // width: auto;
+  // height: auto;
+  // z-index: -100;
+  // -ms-transform: translateX(-50%) translateY(-50%);
+  // -moz-transform: translateX(-50%) translateY(-50%);
+  // -webkit-transform: translateX(-50%) translateY(-50%);
+  // transform: translateX(-50%) translateY(-50%);
+}
 
 .footer-content {
     margin-left: auto;
@@ -31,12 +53,11 @@ footer {
   height:30px;  
 }
 
-
-
-/*.social-icon-footer{
-  display:inline;
-  text-align: center;
-  background-color: white;
-  border-radius: 100px;
-} */
-
+a.hover-color{
+  color: $corona-brown;
+}
+  a.hover-color:hover{
+    color:$dark-corona-blue;
+    text-decoration:none;
+    transition:.4s;
+}
