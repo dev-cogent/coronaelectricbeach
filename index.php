@@ -10,6 +10,7 @@
     <title>Corona Electric Beach</title>
     <?php include 'assets/php/curl.php'; ?>
     <?php include 'assets/php/bandsInTown.php';?>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
 
