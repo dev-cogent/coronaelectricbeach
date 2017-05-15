@@ -88,13 +88,13 @@
 <footer>
   
    <div class="social-icons social-icon-footer">
-        <a href="https://www.instagram.com/coronaelectricbeach/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a class="hover-color" href="https://www.instagram.com/coronaelectricbeach/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
       </div>
       <div class="social-icons social-icon-footer">
-           <a  href="https://www.facebook.com/ElectricBeach/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+           <a class="hover-color" href="https://www.facebook.com/ElectricBeach/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
       </div>
       <div class="social-icons social-icon-footer">
-         <a  href="https://twitter.com/ElectricBeach" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+         <a class="hover-color" href="https://twitter.com/ElectricBeach" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
       </div>
 
     <div class="footer-content">

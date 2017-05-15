@@ -128,11 +128,14 @@ footer {
   width: 30px;
   height: 30px; }
 
+a.hover-color :hover {
+  color: #00A6DD;
+  text-decoration: none;
+  transition: .4s; }
+
 /*.social-icon-footer{
   display:inline;
   text-align: center;
   background-color: white;
   border-radius: 100px;
 } */
-
-

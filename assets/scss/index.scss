@@ -31,7 +31,11 @@ footer {
   height:30px;  
 }
 
-
+a.hover-color :hover{
+    color:$dark-corona-blue;
+    text-decoration:none;
+    transition:.4s;
+}
 
 /*.social-icon-footer{
   display:inline;

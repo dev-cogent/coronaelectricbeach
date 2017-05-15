@@ -44,11 +44,7 @@ h1 {
   border-radius: 5px;
   color: white;
   font-family: "caslonantique", sans-serif;
-
-  box-shadow: 0px 4px 0px #0092d0;
-
   box-shadow: 0px 2px 0px #0092d0;
-
   transition: .4s; }
   .primary-button:hover {
     background-color: #06c0fe;
@@ -110,4 +106,3 @@ h1 {
 .event-description {
   font-size: 15px;
   font-family: "TradeGothicLT", "Helvetica", sans-serif; }
-
