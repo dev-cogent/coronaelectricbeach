@@ -48,7 +48,8 @@ a {
 h1{
   font-family: $main-font;
   color:$corona-brown;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
+  margin-top:35px;
   letter-spacing: 5px;
 }
 
@@ -109,7 +110,7 @@ h1{
 
 .content-section{
   height:100%;
-  padding:0;
+  padding-top: 30px;
 }
 
 .bands-in-town-table{
@@ -117,6 +118,10 @@ h1{
   font-size: 18px;
   tr{
     border-bottom: 1px solid rgba(130,130,130,.15);
+  }
+  td{
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
   @media screen and (max-width:500px){
     font-size:15px;
@@ -141,6 +146,6 @@ h1{
 }
 
 .main-info{
-  margin-top:25px;
+/*  margin-top:25px;*/
 }
 
