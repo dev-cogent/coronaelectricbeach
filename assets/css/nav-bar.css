@@ -15,6 +15,9 @@ body {
   background-image: url("/assets/images/CEB_bolt_texture.png");
   background-size: cover;
   background-repeat: repeat; }
+  @media screen and (max-width: 700px) {
+    body {
+      font-size: 20px; } }
 
 a {
   color: inherit;
@@ -41,12 +44,14 @@ h1 {
   border-radius: 5px;
   color: white;
   font-family: "caslonantique", sans-serif;
-  box-shadow: 0px 4px 0px #0092d0;
+  box-shadow: 0px 2px 0px #0092d0;
   transition: .4s; }
   .primary-button:hover {
     background-color: #06c0fe;
     transition: .4s;
     cursor: pointer; }
+  .primary-button:focus {
+    outline: none; }
 
 /*MAINLY ON INDEX PAGE, WE WILL SEE IF THIS WORKS WELL ON EVERY OTHER PAGE */
 .main-video {
@@ -77,12 +82,23 @@ h1 {
   font-size: 18px; }
   .bands-in-town-table tr {
     border-bottom: 1px solid rgba(130, 130, 130, 0.15); }
+  @media screen and (max-width: 500px) {
+    .bands-in-town-table {
+      font-size: 15px; } }
+
+.sub-text {
+  font-size: 16px;
+  opacity: .6; }
 
 .bands-btn {
-  margin-right: 10px;
   font-size: 13px;
+  letter-spacing: 1px;
+  margin-right: 10px;
   padding-left: 10px;
   padding-right: 10px; }
+  @media screen and (max-width: 500px) {
+    .bands-btn {
+      font-size: 10px; } }
 
 .main-info {
   margin-top: 25px; }

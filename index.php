@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <head>
   <?php include 'assets/html/head.html'; ?>
+  <script type="text/javascript" src="/assets/js/index.js">
+
+  </script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/assets/css/nav-bar.css">
   <link rel="stylesheet" href="/assets/css/index.css">
