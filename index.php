@@ -88,16 +88,14 @@
 <footer>
   
    <div class="social-icons social-icon-footer">
-        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/coronaelectricbeach/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
       </div>
       <div class="social-icons social-icon-footer">
-        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+           <a  href="https://www.facebook.com/ElectricBeach/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
       </div>
       <div class="social-icons social-icon-footer">
-        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+         <a  href="https://twitter.com/ElectricBeach" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
       </div>
- 
-
 
     <div class="footer-content">
         <p>Relax Responsibly.® Corona Extra® Beer. Imported by Crown Imports, Chicago, IL</p>

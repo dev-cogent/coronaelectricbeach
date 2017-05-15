@@ -109,28 +109,30 @@ h1 {
 .sub-text {
   font-size: 16px; }
 
-
-.social-icon-footer {
-  line-height: 25px;
-  margin-right: 10px;
-  border-radius: 21px;
-  width: 45px;
-  height: 42px; }
-  .social-icon-footer .fa {
-    font-size: 18px;
-    color: #10AFE3; }
-
 .footer-content {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  font-size: 18px; }
+  font-size: 18px;
+  padding-top: 15px; }
 
 footer {
-  padding-top: 65px; }
+  padding-top: 85px;
+  text-align: center; }
 
-.social-icons.social-icon-footer {
-  display: inline; }
+.social-icon-footer {
+  display: inline;
+  line-height: 25px;
+  margin-right: 10px;
+  text-align: center;
+  width: 30px;
+  height: 30px; }
 
+/*.social-icon-footer{
+  display:inline;
+  text-align: center;
+  background-color: white;
+  border-radius: 100px;
+} */
 
 
