@@ -61,6 +61,8 @@
     <link rel="stylesheet" href="/assets/css/nav-bar.css">
     <link rel="stylesheet" href="/assets/css/index.css">
     <title>Corona Electric Beach</title>
+    <?php include 'assets/php/curl.php'; ?>
+    <?php include 'assets/php/bandsInTown.php';?>
   </head>
 
 
@@ -112,8 +114,7 @@
               </tr>';
             }
 
-
-      ?>
+            ?>
           </tbody>
         </table>
       </section>
@@ -144,57 +145,10 @@
 
 
 
-<footer>
-  
-   <div class="social-icons social-icon-footer">
-        <a class="hover-color" href="https://www.instagram.com/coronaelectricbeach/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-      </div>
-      <div class="social-icons social-icon-footer">
-           <a class="hover-color" href="https://www.facebook.com/ElectricBeach/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-      </div>
-      <div class="social-icons social-icon-footer">
-         <a class="hover-color" href="https://twitter.com/ElectricBeach" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-      </div>
-
-
-        <p>Relax Responsibly.® Corona Extra® Beer. Imported by Crown Imports, Chicago, IL</p>
-          <p><a class="hover-color" target="_blank" href="https://www.coronausa.com/privacy">Privacy Policy</a>&nbsp;| 
-  <a class="hover-color" target="_blank" href="mailto:contact@coronaelectricbeach.com">Contact</a> |
-  <a class="hover-color" target="_blank" href="https://www.coronausa.com/terms">Terms and Conditions</a></p>
-  </div>
-  </div>
-
-
-      <div class="footer-content">
-          <p>Relax Responsibly.® Corona Extra® Beer. Imported by Crown Imports, Chicago, IL</p>
-            <p><a target="_blank" href="https://www.coronausa.com/privacy">Privacy Policy</a>&nbsp;|
-    <a target="_blank" href="mailto:contact@coronaelectricbeach.com">Contact</a> |
-    <a target="_blank" href="https://www.coronausa.com/terms">Terms and Conditions</a></p>
-    </div>
-    </div>
-
-    </footer>
+    <?php include 'assets/html/footer.html'; ?>
 
 
 
   </body>
 
 </html>
-<?php
-function bandDateConversion($time){
-  $newDate = date('M d D', strtotime($time));
-  return $newDate;
-}
-
-
-function curl($url) {
-   $curl_connection = curl_init($url);
-   curl_setopt($curl_connection, CURLOPT_CONNECTTIMEOUT, 30);
-   curl_setopt($curl_connection, CURLOPT_RETURNTRANSFER, true);
-   curl_setopt($curl_connection, CURLOPT_SSL_VERIFYPEER, false);
-   $json = json_decode(curl_exec($curl_connection), true);
-   curl_close($curl_connection);
-   return $json;
-
-} // end curl
-?>

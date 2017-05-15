@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="/assets/css/shows.css">
     <title>SHOWS - Corona Electric Beach</title>
     <script src="/assets/bootbox/bootbox.js"></script>
+    <?php include 'assets/php/curl.php'; ?>
+    <?php include 'assets/php/bandsInTown.php'; ?>
+    <?php include 'assets/php/vimeo.php'; ?>
+
   </head>
 
 
@@ -24,7 +28,7 @@
 
   <div class="main-info">
     <section class="container content-section">
-      <h1 class="text-center"> Upcoming Shows </h1>
+      <h1 class="text-center headline"> Upcoming Shows </h1>
       <table class="bands-in-town-table">
         <tbody>
 
@@ -93,34 +97,11 @@
   </div>
 
 
-
+    <?php include 'assets/html/footer.html'; ?>
   </body>
 
 </html>
 
-<?php
-
-
-function bandDateConversion($time){
-  $newDate = date('M d D', strtotime($time));
-  return $newDate;
-}
-function curl($url) {
-   $curl_connection = curl_init($url);
-   curl_setopt($curl_connection, CURLOPT_CONNECTTIMEOUT, 30);
-   curl_setopt($curl_connection, CURLOPT_RETURNTRANSFER, true);
-   curl_setopt($curl_connection, CURLOPT_SSL_VERIFYPEER, false);
-   $json = json_decode(curl_exec($curl_connection), true);
-   curl_close($curl_connection);
-   return $json;
-
-} // end curl
-
-function dateConverstion($timeFormat){
-  $newTime = date('m/d/Y',strtotime($timeFormat));
-  return  $newTime;
-}
-?>
 
 <script type="text/javascript">
 $(document).on('click','.vimeo-video',function(){

@@ -101,7 +101,6 @@ h1 {
 
 .main-info {
   /*  margin-top:25px;*/ }
-
 .background-image {
   width: 100%; }
 
@@ -146,5 +145,3 @@ a.hover-color:hover {
   color: #00A6DD;
   text-decoration: none;
   transition: .4s; }
-
-

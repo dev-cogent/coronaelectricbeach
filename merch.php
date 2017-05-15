@@ -16,7 +16,7 @@
   <?php include 'assets/html/nav.html'; ?>
 
   <div class="main-info">
-    <h1 class="text-center p-t-50 p-b-50"> Merch </h1>
+    <h1 class="text-center"> Merch </h1>
     <section class="container content-section">
 
       <div id='collection-component-bc5a5d69268'></div>
@@ -163,6 +163,6 @@
       </section>
   </div>
 
-
+  <?php include 'assets/html/footer.html'; ?>
   </body>
 </html>
