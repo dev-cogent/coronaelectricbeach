@@ -1,51 +1,44 @@
 <!DOCTYPE html>
-<head>
-  <?php include 'assets/html/head.html'; ?>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/assets/css/nav-bar.css">
-  <link rel="stylesheet" href="/assets/css/social.css">
-
-</head>
-
-
-<body>
-
-<!-- Start NAV bar -->
-<?php include 'assets/html/nav.html'; ?>
-<!-- END NAV BAR -->
-<section class="video-section">
-  <video class="main-video" loop autoplay="autoplay">
-    <source src="/assets/videos/CEB-water-view.mp4" type="video/mp4">
-  </video>
-  <div class="video-divider"></div>
-</section>
+<html lang="en">
+  <head>
+    <?php include 'assets/html/head.html'; ?>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/nav-bar.css">
+    <link rel="stylesheet" href="/assets/css/social.css">
+    <title> SOCIAL - Corona Electric Beach</title>
+  </head>
 
 
-<div class="main-info">
-  <section class="container content-section">
-    <h1 class="text-center p-t-50 p-b-50"> Stay Connected </h1>
-    <?php
-    getTweets();
-    ?>
+  <body>
+
+  <!-- Start NAV bar -->
+  <?php include 'assets/html/nav.html'; ?>
+  <!-- END NAV BAR -->
+  <section class="video-section">
+    <video class="main-video" loop autoplay="autoplay">
+      <source src="/assets/videos/CEB-water-view.mp4" type="video/mp4">
+    </video>
+    <div class="video-divider"></div>
   </section>
 
-  <section class="container content-section">
-    <?php displayInstagramPhotos();   ?>
-  </section>
-</div>
+
+  <div class="main-info">
+    <section class="container content-section">
+      <h1 class="text-center p-t-50 p-b-50"> Stay Connected </h1>
+      <?php
+      getTweets();
+      ?>
+    </section>
+
+    <section class="container content-section">
+      <?php displayInstagramPhotos();   ?>
+    </section>
+  </div>
 
 
-</body>
+  </body>
 
-
-
-
-
-
-
-
-
-
+</html>
 
 
 
@@ -81,14 +74,14 @@ function getTweets(){
 function displayTweets($tweetsObj){
   foreach ($tweetsObj as $key => $value) {
     echo '<div class="col-xs-12">
-            <div>
+            <a href="https://twitter.com/ElectricBeach" target="_blank">  <img class="pull-left" src="https://pbs.twimg.com/profile_images/834846942614081536/HQhHYXNC_normal.jpg"/> </a>
+            <div class="twitter-info">
               <a href="https://twitter.com/ElectricBeach" target="_blank">
-                <img src="https://pbs.twimg.com/profile_images/834846942614081536/HQhHYXNC_normal.jpg"/>
                 <p class="d-inline">'.$value->username.'</p>
               </a>
+              <p>'.$value->text.'</p>
+              <p class="date-time">'.getPastTime($value->created).' ago</p>
             </div>
-            <p>'.$value->text.'</p>
-            <p class="date-time">'.getPastTime($value->created).' ago</p>
           </div>';
   }
 
