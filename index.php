@@ -1,58 +1,5 @@
 <!DOCTYPE html>
 
-<head>
-  <?php include 'assets/html/head.html'; ?>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/assets/css/nav-bar.css">
-  <link rel="stylesheet" href="/assets/css/index.css">
-</head>
-
-
-<body>
-
-<!-- Start NAV bar -->
-  <?php include 'assets/html/nav.html'; ?>
-  <!-- END NAV BAR -->
-
-<script>
-
-// $(document).ready(function(){
-// 		var video = $("#index-video");
-// 		var windowObj = $(window);
-//
-// 		function onResizeWindow() {
-//         resizeVideo(video[0]);
-// 		}
-//
-// 		function onLoadMetaData(e) {
-// 			resizeVideo(e.target);
-// 		}
-//
-// 		function resizeVideo(videoObject) {
-// 			var percentWidth = videoObject.clientWidth * 100 / videoObject.videoWidth;
-// 			var videoHeight = videoObject.videoHeight   * percentWidth / 100;
-//
-//       if (video.height() < 450) {
-//         console.log('it works');
-//         video.height(videoHeight );
-//         }
-//         else  {
-//
-//         }
-//
-//
-//
-//
-// 		}
-//
-// 		video.on("loadedmetadata", onLoadMetaData);
-// 		windowObj.resize(onResizeWindow);
-// 	}
-// );
-
-
-</script>
-
 
 <html lang="en">
   <head>
@@ -70,6 +17,48 @@
 
   <!-- Start NAV bar -->
     <?php include 'assets/html/nav.html'; ?>
+
+      <!-- END NAV BAR -->
+
+    <script>
+
+    // $(document).ready(function(){
+    // 		var video = $("#index-video");
+    // 		var windowObj = $(window);
+    //
+    // 		function onResizeWindow() {
+    //         resizeVideo(video[0]);
+    // 		}
+    //
+    // 		function onLoadMetaData(e) {
+    // 			resizeVideo(e.target);
+    // 		}
+    //
+    // 		function resizeVideo(videoObject) {
+    // 			var percentWidth = videoObject.clientWidth * 100 / videoObject.videoWidth;
+    // 			var videoHeight = videoObject.videoHeight   * percentWidth / 100;
+    //
+    //       if (video.height() < 450) {
+    //         console.log('it works');
+    //         video.height(videoHeight );
+    //         }
+    //         else  {
+    //
+    //         }
+    //
+    //
+    //
+    //
+    // 		}
+    //
+    // 		video.on("loadedmetadata", onLoadMetaData);
+    // 		windowObj.resize(onResizeWindow);
+    // 	}
+    // );
+
+
+    </script>
+
     <!-- END NAV BAR -->
     <section class="video-section">
       <video class="main-video" loop autoplay="autoplay">
