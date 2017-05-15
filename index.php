@@ -60,11 +60,15 @@
     </script>
 
     <!-- END NAV BAR -->
-    <section class="video-section">
-      <video class="main-video" loop autoplay="autoplay">
-        <source src="/assets/videos/CEB-web-animation.mp4" type="video/mp4">
-      </video>
-    </section>
+  <script>
+  if(screen && screen.width > 480){
+    document.write('<section class="video-section">'+
+      '<video class="main-video" loop autoplay="autoplay">'+
+        '<source src="/assets/videos/CEB-web-animation.mp4" type="video/mp4">'+
+      '</video>'+
+    '</section>');
+  }
+  </script>
 
     <div class="main-info">
       <section class="container  content-section text-center">

@@ -19,12 +19,20 @@
   <!-- Start NAV bar -->
   <?php include 'assets/html/nav.html'; ?>
   <!-- END NAV BAR -->
-  <section class="video-section">
-    <video muted class="main-video" loop autoplay="autoplay" >
-      <source src="/assets/videos/___CEB_VID_4_WEBSITE.mp4" type="video/mp4">
-    </video>
-    <div class="video-divider"></div>
-  </section>
+
+
+  <script>
+  if(screen && screen.width > 480){
+    document.write(' <section class="video-section">'+
+      '<video muted class="main-video" loop autoplay="autoplay" >'+
+        '<source src="/assets/videos/___CEB_VID_4_WEBSITE.mp4" type="video/mp4">'+
+      '</video>'+
+    '</section>');
+  }
+  </script>
+
+
+
 
   <div class="main-info">
     <section class="container content-section">
