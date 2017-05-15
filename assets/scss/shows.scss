@@ -19,4 +19,10 @@
 //   transform: translateX(-55%) translateY(-50%);
 // // background: url(/assets/images/CEB_bolt_texture.png) no-repeat;
 // background-size: cover;
+
+.vimeo-video{
+  &:hover{
+    cursor: pointer;
+  }
+
 }

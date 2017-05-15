@@ -30,10 +30,13 @@ body{
   background-image: url("/assets/images/CEB_bolt_texture.png");
   background-size: cover;
   background-repeat: repeat;
+  @media screen and  (max-width: 700px){
+    font-size:20px;
+  }
 }
 
 a {
-  color:inherit;
+  
   transition:.4s;
   &:hover,&:focus{
     color:$thunder-yellow;
@@ -45,7 +48,8 @@ a {
 h1{
   font-family: $main-font;
   color:$corona-brown;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
+  margin-top:35px;
   letter-spacing: 5px;
 }
 
@@ -78,6 +82,9 @@ h1{
   &:hover{
     @include hover($hover-corona-blue);
   }
+  &:focus{
+    outline:none;
+  }
 }
 
 
@@ -107,16 +114,28 @@ h1{
 
 .content-section{
   height:100%;
-  padding:0;
+  padding-top: 30px;
 }
 
 .bands-in-town-table{
   width: 100%;
   font-size: 18px;
-
   tr{
     border-bottom: 1px solid rgba(130,130,130,.15);
   }
+  td{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  @media screen and (max-width:500px){
+    font-size:15px;
+  }
+}
+
+
+.sub-text{
+  font-size: 16px;
+  opacity:.6;
 }
 
 .bands-btn{
@@ -127,8 +146,13 @@ h1{
   padding-top: 5px;
   padding-bottom: 2px;
 
+  @media screen and (max-width:500px){
+    font-size: 10px;
+  }
+
 }
 
 .main-info{
-  margin-top:25px;
+/*  margin-top:25px;*/
 }
+

@@ -3,9 +3,11 @@
 .background-image{
   width:100%;
 }
+
 .sub-text{
   font-size: 16px;
 }
+
 
 
 .video-banner {
@@ -31,3 +33,37 @@
   // -webkit-transform: translateX(-50%) translateY(-50%);
   // transform: translateX(-50%) translateY(-50%);
 }
+
+.footer-content {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+footer {
+  padding-top: 85px;
+  text-align: center;
+}
+
+.social-icon-footer{
+  display:inline;
+  line-height:25px;
+  margin-right:10px;
+  text-align: center;
+  width:30px;
+  height:30px;  
+}
+
+a.hover-color{
+  color: $corona-brown;
+}
+  a.hover-color:hover{
+    color:$dark-corona-blue;
+    text-decoration:none;
+    transition:.4s;
+}
+
+
+

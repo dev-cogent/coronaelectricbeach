@@ -15,9 +15,11 @@ body {
   background-image: url("/assets/images/CEB_bolt_texture.png");
   background-size: cover;
   background-repeat: repeat; }
+  @media screen and (max-width: 700px) {
+    body {
+      font-size: 20px; } }
 
 a {
-  color: inherit;
   transition: .4s; }
   a:hover, a:focus {
     color: #F9EA2A;
@@ -27,7 +29,8 @@ a {
 h1 {
   font-family: "caslonantique", sans-serif;
   color: #6f4d2f;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
+  margin-top: 35px;
   letter-spacing: 5px; }
 
 .section-break {
@@ -46,11 +49,15 @@ h1 {
   font-style: normal;
   font-family: "caslonantique", sans-serif;
   box-shadow: 0px 2px 0px #0198cb;
+
+
   transition: .4s; }
   .primary-button:hover {
     background-color: #06c0fe;
     transition: .4s;
     cursor: pointer; }
+  .primary-button:focus {
+    outline: none; }
 
 /*MAINLY ON INDEX PAGE, WE WILL SEE IF THIS WORKS WELL ON EVERY OTHER PAGE */
 .main-video {
@@ -67,13 +74,23 @@ h1 {
 
 .content-section {
   height: 100%;
-  padding: 0; }
+  padding-top: 30px; }
 
 .bands-in-town-table {
   width: 100%;
   font-size: 18px; }
   .bands-in-town-table tr {
     border-bottom: 1px solid rgba(130, 130, 130, 0.15); }
+  .bands-in-town-table td {
+    padding-top: 15px;
+    padding-bottom: 15px; }
+  @media screen and (max-width: 500px) {
+    .bands-in-town-table {
+      font-size: 15px; } }
+
+.sub-text {
+  font-size: 16px;
+  opacity: .6; }
 
 .bands-btn {
   margin-right: 10px;
@@ -83,8 +100,13 @@ h1 {
   padding-top: 5px;
   padding-bottom: 2px; }
 
+  @media screen and (max-width: 500px) {
+    .bands-btn {
+      font-size: 10px; } }
+
+
 .main-info {
-  margin-top: 25px; }
+  /*  margin-top:25px;*/ }
 
 .nav-logo {
   height: 100px;
@@ -147,6 +169,7 @@ i.fa.fa-bars.bar-settings {
     transition: .4s;
     cursor: pointer; }
 
+
 @media (max-width: 768px) {
   .navbar-right {
     display: none; }
@@ -176,3 +199,4 @@ i.fa.fa-bars.bar-settings {
 @media (min-width: 769px) {
   .navbar-toggle {
     display: none; } }
+

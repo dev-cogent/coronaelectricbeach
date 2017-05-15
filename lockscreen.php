@@ -4,14 +4,15 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
-  <title>The HTML5 Herald</title>
+  <?php include 'assets/html/head.html';?>
+  <title>Verify Age - Corona Electric Beach</title>
+  <script src="/assets/js/lockscreen.js" charset="utf-8"></script>
   <meta name="description" content="Corona Electric Beach Official Page">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="/global/css/bootstrap.min.css">
   <link rel="stylesheet" href="/global/css/bootstrap-extend.min.css">
-    <link rel="stylesheet" href="assets/css/lockscreen.css">
+  <link rel="stylesheet" href="assets/css/lockscreen.css">
 
 
 
@@ -54,7 +55,7 @@
               <img src="/assets/images/ig-logo-white.png" class="insta-logo-white">
               <div class="relax-responsibly"> Relax responsibly®. </div>
 
-              <div class="copyright-text"> Corona Extra® Beer. Imported by Crown Imports, Chicago, IL </div
+              <div class="copyright-text"> Corona Extra® Beer. Imported by Crown Imports, Chicago, IL </div>
                 <div class="footer-links">
                   <a href="https://coronausa.com/privacy" class="footer-link"> Privacy Policy | </a>
                   <a href="https://coronausa.com/contactus" class="footer-link"> Contact Us | </a>
