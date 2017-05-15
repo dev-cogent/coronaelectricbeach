@@ -12,11 +12,56 @@
 <!-- Start NAV bar -->
   <?php include 'assets/html/nav.html'; ?>
   <!-- END NAV BAR -->
+
+<script>
+
+// $(document).ready(function(){
+// 		var video = $("#index-video");
+// 		var windowObj = $(window);
+//
+// 		function onResizeWindow() {
+//         resizeVideo(video[0]);
+// 		}
+//
+// 		function onLoadMetaData(e) {
+// 			resizeVideo(e.target);
+// 		}
+//
+// 		function resizeVideo(videoObject) {
+// 			var percentWidth = videoObject.clientWidth * 100 / videoObject.videoWidth;
+// 			var videoHeight = videoObject.videoHeight   * percentWidth / 100;
+//
+//       if (video.height() < 450) {
+//         console.log('it works');
+//         video.height(videoHeight );
+//         }
+//         else  {
+//
+//         }
+//
+//
+//
+//
+// 		}
+//
+// 		video.on("loadedmetadata", onLoadMetaData);
+// 		windowObj.resize(onResizeWindow);
+// 	}
+// );
+
+
+</script>
+
   <section class="video-section">
-    <video class="main-video" loop autoplay="autoplay">
-      <source src="/assets/videos/CEB web animation.mp4" type="video/mp4">
-    </video>
+
+    <div class="video-banner">
+      <video id="index-video" class="main-video" loop autoplay="autoplay">
+        <source src="/assets/videos/CEB web animation.mp4" type="video/mp4">
+      </video>
+    </div>
+
   </section>
+
 
   <div class="main-info">
     <section class="container  content-section text-center">
@@ -41,14 +86,18 @@
               <td>'.$info['formatted_datetime'].'</td>
               <td>'.$info['venue']['name'].'<p class="sub-text">w/'.$info['artists'][1]['name'].'</p></td>
               <td>'.$info['formatted_location'].'</td>
-              <td>
-                <a href="'.$info['ticket_url'].'" target="_blank">
+              <td>';
+                if($info['ticket_url']){
+                echo '<a href="'.$info['ticket_url'].'" target="_blank">
                   <button class="primary-button bands-btn">TICKETS </button>
-                </a>
+                </a>';}
+                if($info['facebook_rsvp_url']){
+                echo '
                 <a href="'.$info['facebook_rsvp_url'].'" target="_blank">
                   <button class="primary-button bands-btn">RSVP</button>
-                </a>
-              </td>
+                </a>';
+              }
+              echo'</td>
             </tr>';
           }
 
