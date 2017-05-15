@@ -99,9 +99,9 @@
 
     <div class="footer-content">
         <p>Relax Responsibly.® Corona Extra® Beer. Imported by Crown Imports, Chicago, IL</p>
-          <p><a target="_blank" href="https://www.coronausa.com/privacy">Privacy Policy</a>&nbsp;| 
-  <a target="_blank" href="mailto:contact@coronaelectricbeach.com">Contact</a> |
-  <a target="_blank" href="https://www.coronausa.com/terms">Terms and Conditions</a></p>
+          <p><a class="hover-color" target="_blank" href="https://www.coronausa.com/privacy">Privacy Policy</a>&nbsp;| 
+  <a class="hover-color" target="_blank" href="mailto:contact@coronaelectricbeach.com">Contact</a> |
+  <a class="hover-color" target="_blank" href="https://www.coronausa.com/terms">Terms and Conditions</a></p>
   </div>
   </div>
 
