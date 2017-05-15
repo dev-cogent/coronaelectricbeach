@@ -6,111 +6,6 @@
   font-family: 'TradeGothicLT';
   src: url("/assets/fonts/TradeGothicLT.ttf"); }
 
-body {
-  font-family: "caslonantique", sans-serif;
-  color: #6f4d2f;
-  font-size: 30px;
-  padding: 0;
-  margin: 0;
-  background-image: url("/assets/images/CEB_bolt_texture.png");
-  background-size: cover;
-  background-repeat: repeat; }
-  @media screen and (max-width: 700px) {
-    body {
-      font-size: 20px; } }
-
-a {
-  color: inherit;
-  transition: .4s; }
-  a:hover, a:focus {
-    color: #F9EA2A;
-    text-decoration: none;
-    transition: .4s; }
-
-h1 {
-  font-family: "caslonantique", sans-serif;
-  color: #6f4d2f;
-  margin-bottom: 35px;
-  margin-top: 35px;
-  letter-spacing: 5px; }
-
-.section-break {
-  background-color: #6f4d2f;
-  height: 1px;
-  border: 0px; }
-
-.primary-button {
-  background-color: #10AFE3;
-  border: 0px;
-  border-radius: 5px;
-  color: white;
-  font-family: "caslonantique", sans-serif;
-
-  box-shadow: 0px 4px 0px #0092d0;
-
-  box-shadow: 0px 2px 0px #0092d0;
-
-  transition: .4s; }
-  .primary-button:hover {
-    background-color: #06c0fe;
-    transition: .4s;
-    cursor: pointer; }
-  .primary-button:focus {
-    outline: none; }
-
-/*MAINLY ON INDEX PAGE, WE WILL SEE IF THIS WORKS WELL ON EVERY OTHER PAGE */
-.main-video {
-  width: 100%;
-  position: relative;
-  z-index: -10;
-  margin-top: -15%; }
-
-.video-section {
-  padding: 0px;
-  width: 100%;
-  overflow: hidden;
-  display: block;
-  height: 550px; }
-  @media screen and (max-width: 1200px) {
-    .video-section {
-      height: 330px; } }
-  @media screen and (max-width: 450px) {
-    .video-section {
-      height: 165px; } }
-
-.content-section {
-  height: 100%;
-  padding-top: 30px; }
-
-.bands-in-town-table {
-  width: 100%;
-  font-size: 18px; }
-  .bands-in-town-table tr {
-    border-bottom: 1px solid rgba(130, 130, 130, 0.15); }
-  .bands-in-town-table td {
-    padding-top: 15px;
-    padding-bottom: 15px; }
-  @media screen and (max-width: 500px) {
-    .bands-in-town-table {
-      font-size: 15px; } }
-
-.sub-text {
-  font-size: 16px;
-  opacity: .6; }
-
-.bands-btn {
-  font-size: 13px;
-  letter-spacing: 1px;
-  margin-right: 10px;
-  padding-left: 10px;
-  padding-right: 10px; }
-  @media screen and (max-width: 500px) {
-    .bands-btn {
-      font-size: 10px; } }
-
-.main-info {
-  /*  margin-top:25px;*/ }
-
 .main-video {
   margin-top: -12%; }
 
@@ -119,5 +14,13 @@ h1 {
 
 .twitter-info {
   float: left;
-  padding-left: 15px; }
+  padding-left: 15px;
+  max-width: 1200px; }
+  @media screen and (max-width: 1300px) {
+    .twitter-info {
+      max-width: 800px; } }
+  @media screen and (max-width: 600px) {
+    .twitter-info {
+      max-width: 250px; } }
 
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNvY2lhbC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSw2QkFBNkI7RUFDN0IsNENBQTRDLEVBQUU7O0FBRWhEO0VBQ0UsNkJBQTZCO0VBQzdCLDRDQUE0QyxFQUFFOztBQUVoRDtFQUNFLGlCQUFpQixFQUFFOztBQUVyQjtFQUNFLGdCQUFnQixFQUFFOztBQUVwQjtFQUNFLFlBQVk7RUFDWixtQkFBbUI7RUFDbkIsa0JBQWtCLEVBQUU7RUFDcEI7SUFDRTtNQUNFLGlCQUFpQixFQUFFLEVBQUU7RUFDekI7SUFDRTtNQUNFLGlCQUFpQixFQUFFLEVBQUUiLCJmaWxlIjoic29jaWFsLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIkBmb250LWZhY2Uge1xuICBmb250LWZhbWlseTogJ2Nhc2xvbmFudGlxdWUnO1xuICBzcmM6IHVybChcIi9hc3NldHMvZm9udHMvY2FzbG9uYW50aXF1ZS50dGZcIik7IH1cblxuQGZvbnQtZmFjZSB7XG4gIGZvbnQtZmFtaWx5OiAnVHJhZGVHb3RoaWNMVCc7XG4gIHNyYzogdXJsKFwiL2Fzc2V0cy9mb250cy9UcmFkZUdvdGhpY0xULnR0ZlwiKTsgfVxuXG4ubWFpbi12aWRlbyB7XG4gIG1hcmdpbi10b3A6IC0xMiU7IH1cblxuLmRhdGUtdGltZSB7XG4gIGZvbnQtc2l6ZTogMTdweDsgfVxuXG4udHdpdHRlci1pbmZvIHtcbiAgZmxvYXQ6IGxlZnQ7XG4gIHBhZGRpbmctbGVmdDogMTVweDtcbiAgbWF4LXdpZHRoOiAxMjAwcHg7IH1cbiAgQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDogMTMwMHB4KSB7XG4gICAgLnR3aXR0ZXItaW5mbyB7XG4gICAgICBtYXgtd2lkdGg6IDgwMHB4OyB9IH1cbiAgQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDogNjAwcHgpIHtcbiAgICAudHdpdHRlci1pbmZvIHtcbiAgICAgIG1heC13aWR0aDogMjUwcHg7IH0gfVxuIl19 */
