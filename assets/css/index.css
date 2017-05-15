@@ -41,10 +41,14 @@ h1 {
 .primary-button {
   background-color: #10AFE3;
   border: 0px;
-  border-radius: 5px;
+  border-radius: 3px;
   color: white;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-style: normal;
   font-family: "caslonantique", sans-serif;
-  box-shadow: 0px 2px 0px #0092d0;
+  box-shadow: 0px 2px 0px #0198cb;
   transition: .4s; }
   .primary-button:hover {
     background-color: #06c0fe;
@@ -57,8 +61,7 @@ h1 {
 .main-video {
   width: 100%;
   position: relative;
-  z-index: -10;
-  margin-top: -15%; }
+  z-index: -10; }
 
 .video-section {
   padding: 0px;
@@ -66,12 +69,6 @@ h1 {
   overflow: hidden;
   display: block;
   height: 550px; }
-  @media screen and (max-width: 1200px) {
-    .video-section {
-      height: 330px; } }
-  @media screen and (max-width: 450px) {
-    .video-section {
-      height: 165px; } }
 
 .content-section {
   height: 100%;
@@ -94,14 +91,13 @@ h1 {
   opacity: .6; }
 
 .bands-btn {
-  font-size: 13px;
-  letter-spacing: 1px;
   margin-right: 10px;
+  font-size: 12px;
   padding-left: 10px;
-  padding-right: 10px; }
-  @media screen and (max-width: 500px) {
-    .bands-btn {
-      font-size: 10px; } }
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 2px; }
+}
 
 .main-info {
   /*  margin-top:25px;*/ }
@@ -111,6 +107,7 @@ h1 {
 
 .sub-text {
   font-size: 16px; }
+
 
 
 .social-icon-footer {
