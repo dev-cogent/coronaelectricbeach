@@ -6,118 +6,11 @@
   font-family: 'TradeGothicLT';
   src: url("/assets/fonts/TradeGothicLT.ttf"); }
 
-body {
-  font-family: "caslonantique", sans-serif;
-  color: #6f4d2f;
-  font-size: 30px;
-  padding: 0;
-  margin: 0;
-  background-image: url("/assets/images/CEB_bolt_texture.png");
-  background-size: cover;
-  background-repeat: repeat; }
-  @media screen and (max-width: 700px) {
-    body {
-      font-size: 20px; } }
-
-a {
-  transition: .4s; }
-  a:hover, a:focus {
-    color: #F9EA2A;
-    text-decoration: none;
-    transition: .4s; }
-
-h1 {
-  font-family: "caslonantique", sans-serif;
-  color: #6f4d2f;
-  margin-bottom: 35px;
-  margin-top: 35px;
-  letter-spacing: 5px; }
-
-.section-break {
-  background-color: #6f4d2f;
-  height: 1px;
-  border: 0px; }
-
-.primary-button {
-  background-color: #10AFE3;
-  border: 0px;
-  border-radius: 3px;
-  color: white;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-style: normal;
-  font-family: "caslonantique", sans-serif;
-  box-shadow: 0px 2px 0px #0198cb;
-  transition: .4s; }
-  .primary-button:hover {
-    background-color: #06c0fe;
-    transition: .4s;
-    cursor: pointer; }
-  .primary-button:focus {
-    outline: none; }
-
-/*MAINLY ON INDEX PAGE, WE WILL SEE IF THIS WORKS WELL ON EVERY OTHER PAGE */
-.main-video {
-  width: 100%;
-  position: relative;
-  z-index: -10; }
-
-.video-section {
-  padding: 0px;
-  width: 100%;
-  overflow: hidden;
-  display: block;
-  height: 550px; }
-
-.content-section {
-  height: 100%;
-  padding-top: 30px; }
-
-.bands-in-town-table {
-  width: 100%;
-  font-size: 18px; }
-  .bands-in-town-table tr {
-    border-bottom: 1px solid rgba(130, 130, 130, 0.15); }
-  .bands-in-town-table td {
-    padding-top: 15px;
-    padding-bottom: 15px; }
-  @media screen and (max-width: 500px) {
-    .bands-in-town-table {
-      font-size: 15px; } }
-
-.sub-text {
-  font-size: 16px;
-  opacity: .6; }
-
-.bands-btn {
-  margin-right: 10px;
-  font-size: 12px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 2px; }
-}
-
-.main-info {
-  /*  margin-top:25px;*/ }
 .background-image {
   width: 100%; }
 
 .sub-text {
   font-size: 16px; }
-
-
-
-.social-icon-footer {
-  line-height: 25px;
-  margin-right: 10px;
-  border-radius: 21px;
-  width: 45px;
-  height: 42px; }
-  .social-icon-footer .fa {
-    font-size: 18px;
-    color: #10AFE3; }
 
 .footer-content {
   margin-left: auto;
@@ -145,3 +38,5 @@ a.hover-color:hover {
   color: #00A6DD;
   text-decoration: none;
   transition: .4s; }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLDZCQUE2QjtFQUM3Qiw0Q0FBNEMsRUFBRTs7QUFFaEQ7RUFDRSw2QkFBNkI7RUFDN0IsNENBQTRDLEVBQUU7O0FBRWhEO0VBQ0UsWUFBWSxFQUFFOztBQUVoQjtFQUNFLGdCQUFnQixFQUFFOztBQUVwQjtFQUNFLGtCQUFrQjtFQUNsQixtQkFBbUI7RUFDbkIsbUJBQW1CO0VBQ25CLGdCQUFnQjtFQUNoQixrQkFBa0IsRUFBRTs7QUFFdEI7RUFDRSxrQkFBa0I7RUFDbEIsbUJBQW1CLEVBQUU7O0FBRXZCO0VBQ0UsZ0JBQWdCO0VBQ2hCLGtCQUFrQjtFQUNsQixtQkFBbUI7RUFDbkIsbUJBQW1CO0VBQ25CLFlBQVk7RUFDWixhQUFhLEVBQUU7O0FBRWpCO0VBQ0UsZUFBZSxFQUFFOztBQUVuQjtFQUNFLGVBQWU7RUFDZixzQkFBc0I7RUFDdEIsZ0JBQWdCLEVBQUUiLCJmaWxlIjoiaW5kZXguY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQGZvbnQtZmFjZSB7XG4gIGZvbnQtZmFtaWx5OiAnY2FzbG9uYW50aXF1ZSc7XG4gIHNyYzogdXJsKFwiL2Fzc2V0cy9mb250cy9jYXNsb25hbnRpcXVlLnR0ZlwiKTsgfVxuXG5AZm9udC1mYWNlIHtcbiAgZm9udC1mYW1pbHk6ICdUcmFkZUdvdGhpY0xUJztcbiAgc3JjOiB1cmwoXCIvYXNzZXRzL2ZvbnRzL1RyYWRlR290aGljTFQudHRmXCIpOyB9XG5cbi5iYWNrZ3JvdW5kLWltYWdlIHtcbiAgd2lkdGg6IDEwMCU7IH1cblxuLnN1Yi10ZXh0IHtcbiAgZm9udC1zaXplOiAxNnB4OyB9XG5cbi5mb290ZXItY29udGVudCB7XG4gIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICBtYXJnaW4tcmlnaHQ6IGF1dG87XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgZm9udC1zaXplOiAxOHB4O1xuICBwYWRkaW5nLXRvcDogMTVweDsgfVxuXG5mb290ZXIge1xuICBwYWRkaW5nLXRvcDogODVweDtcbiAgdGV4dC1hbGlnbjogY2VudGVyOyB9XG5cbi5zb2NpYWwtaWNvbi1mb290ZXIge1xuICBkaXNwbGF5OiBpbmxpbmU7XG4gIGxpbmUtaGVpZ2h0OiAyNXB4O1xuICBtYXJnaW4tcmlnaHQ6IDEwcHg7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgd2lkdGg6IDMwcHg7XG4gIGhlaWdodDogMzBweDsgfVxuXG5hLmhvdmVyLWNvbG9yIHtcbiAgY29sb3I6ICM2ZjRkMmY7IH1cblxuYS5ob3Zlci1jb2xvcjpob3ZlciB7XG4gIGNvbG9yOiAjMDBBNkREO1xuICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gIHRyYW5zaXRpb246IC40czsgfVxuIl19 */
