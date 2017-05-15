@@ -1,4 +1,7 @@
-<?php function curl($url) {
+<?php
+error_reporting(0);
+  date_default_timezone_set('EST'); # setting timezone
+  function curl($url) {
    $curl_connection = curl_init($url);
    curl_setopt($curl_connection, CURLOPT_CONNECTTIMEOUT, 30);
    curl_setopt($curl_connection, CURLOPT_RETURNTRANSFER, true);
