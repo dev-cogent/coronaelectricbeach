@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="/global/css/bootstrap-extend.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/lockscreen.css">
+  <link rel="stylesheet" href="assets/css/main.css">
 
 
 
@@ -49,25 +50,24 @@
 
         <div class="submit-btn-container"> <button formaction="submit" onclick="" type="button" class="submit-btn"> ENTER </button> </div>
 
-        <div class="lockscreen-footer col-xs-12 col-sm-12 col-md-12 col-lg-7 ">
 
-              <img src="/assets/images/twitter-logo-white.png" class="twitter-logo-white">
-              <img src="/assets/images/fb-logo-white.png" class="fb-logo-white">
-              <img src="/assets/images/ig-logo-white.png" class="insta-logo-white">
-              <div class="relax-responsibly"> Relax responsibly®. </div>
-
-              <div class="copyright-text"> Corona Extra® Beer. Imported by Crown Imports, Chicago, IL </div>
-                <div class="footer-links">
-                  <a href="https://coronausa.com/privacy" class="footer-link"> Privacy Policy | </a>
-                  <a href="https://coronausa.com/contactus" class="footer-link"> Contact Us | </a>
-                  <a href="https://coronausa.com/terms" class="footer-link"> Terms and Conditions  </a>
-                 </div>
-
-        </div>
   </div>
 </div>
 
-</div>
+<div class="lockscreen-footer col-xs-12 col-sm-12 col-md-12 col-lg-7 ">
 
+      <img src="/assets/images/twitter-logo-white.png" class="twitter-logo-white">
+      <img src="/assets/images/fb-logo-white.png" class="fb-logo-white">
+      <img src="/assets/images/ig-logo-white.png" class="insta-logo-white">
+      <div class="relax-responsibly"> Relax responsibly®. </div>
+
+      <div class="copyright-text"> Corona Extra® Beer. Imported by Crown Imports, Chicago, IL </div>
+        <div class="footer-links">
+          <a href="https://coronausa.com/privacy" class="footer-link"> Privacy Policy | </a>
+          <a href="https://coronausa.com/contactus" class="footer-link"> Contact Us | </a>
+          <a href="https://coronausa.com/terms" class="footer-link"> Terms and Conditions  </a>
+         </div>
+
+</div>
 </body>
 </html>
