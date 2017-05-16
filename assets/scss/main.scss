@@ -21,7 +21,7 @@ a {
   color:inherit;
   transition:.4s;
   &:hover,&:focus{
-    color:$thunder-yellow;
+    color:$corona-blue;
     text-decoration:none;
     transition:.4s;
   }
@@ -49,7 +49,7 @@ h1{
 
 
 .primary-button{
-  background-color:$corona-blue;
+  background-color:$corona-blue-button;
   border:0px;
   border-radius:5px;
   color:white;
@@ -83,9 +83,17 @@ h1{
     @media screen and (max-width: 1200px){
       height:330px;
     }
-    @media screen and (max-width: 450px){
-      height:165px;
-    }
+}
+
+@media (min-width:1px) and (max-width:480px){
+  .video-section{
+    height: 220px;
+  }
+}
+@media (min-width:481px) and (max-width:685px){
+  .video-section {
+    height: 285px;
+  }
 }
 
 .content-section{
@@ -118,7 +126,7 @@ h1{
 
 .bands-in-town-table{
   width: 100%;
-  font-size: 18px;
+  font-size: 17px;
   tr{
     border-top: 1px solid rgba(130,130,130,.15);
   }
@@ -127,6 +135,7 @@ h1{
     padding-top: 15px;
     padding-bottom: 15px;
   }
+
   @media screen and (max-width:500px){
     font-size:15px;
   }
@@ -138,11 +147,22 @@ h1{
   opacity:.6;
 }
 
+
+@media screen and (max-width: 768px) {
+  .bands-btn{
+    margin-bottom: 12%;
+  }
+  .bands-in-town-table td {
+    text-align: -webkit-center;
+  }
+}
+
 .bands-btn{
   font-size:13px;
   letter-spacing: 1px;
   margin-right: 10px;
   padding-left: 10px;
+  padding-top: 5px;
   padding-right: 10px;
   @media screen and (max-width:500px){
     font-size: 10px;
