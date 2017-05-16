@@ -40,7 +40,7 @@ function displayTweets($tweetsObj){
                 <p class="d-inline">'.$value->username.'</p>
               </a>
               <p>'.$value->text.'</p>
-              <p class="date-time">'.getPastTime($value->created).' ago</p>
+              <div class="date-time">'.getPastTime($value->created).' ago</div>
             </div>
           </div>';
   }
