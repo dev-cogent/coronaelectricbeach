@@ -90,15 +90,17 @@
         <hr class="section-break">
         <h1 class="text-center"> Festival Activations </h1>
         <div class="image-container">
+          <div class="col-xs-12 col-sm-6"
           <a href="http://www.springawakeningfestival.com/" target="_blank"><img class="col-xs-12 col-sm-6" src="/assets/images/springawakening.png"/></a>
           <a href="http://www.nocturnalwonderland.com/" target="_blank"><img class="col-xs-12 col-sm-6" src="/assets/images/nocturnal.png"/></a>
           <a href="http://lasvegas.electricdaisycarnival.com/" target="_blank"><img class="col-xs-12 col-sm-6" src="/assets/images/edc.png"/></a>
           <a href="http://escapehalloween.com/" target="_blank" ><img class="col-xs-12 col-sm-6" src="/assets/images/escape.png"/></a>
-          <a href="http://hardfest.com/hardsummer" target="_blank" ><img class="col-xs-12 col-sm-6" src="/assets/images/HARD1.png"/></a>
-          <a href="http://orlando.electricdaisycarnival.com/" target="_blank" ><img class="col-xs-12 col-sm-6" src="/assets/images/edcORL.png"/></a>
+          <a href="http://hardfest.com/hardsummer" target="_blank" ><img class="festivals" src="/assets/images/HARD1.png"/></a>
+          <a href="http://orlando.electricdaisycarnival.com/" target="_blank" ><img class="festivals" src="/assets/images/edcORL.png"/></a>
+          </div>
         </div>
       </section>
-    </div>
+   
 
 
 
