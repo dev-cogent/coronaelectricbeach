@@ -21,47 +21,9 @@
 
       <!-- END NAV BAR -->
 
-    <script>
-
-    // $(document).ready(function(){
-    // 		var video = $("#index-video");
-    // 		var windowObj = $(window);
-    //
-    // 		function onResizeWindow() {
-    //         resizeVideo(video[0]);
-    // 		}
-    //
-    // 		function onLoadMetaData(e) {
-    // 			resizeVideo(e.target);
-    // 		}
-    //
-    // 		function resizeVideo(videoObject) {
-    // 			var percentWidth = videoObject.clientWidth * 100 / videoObject.videoWidth;
-    // 			var videoHeight = videoObject.videoHeight   * percentWidth / 100;
-    //
-    //       if (video.height() < 450) {
-    //         console.log('it works');
-    //         video.height(videoHeight );
-    //         }
-    //         else  {
-    //
-    //         }
-    //
-    //
-    //
-    //
-    // 		}
-    //
-    // 		video.on("loadedmetadata", onLoadMetaData);
-    // 		windowObj.resize(onResizeWindow);
-    // 	}
-    // );
-
-
-    </script>
-
     <!-- END NAV BAR -->
   <script>
+  //Checking if the this is mobile or desktop.
   if(screen && screen.width > 480){
     document.write('<section class="video-section">'+
       '<video class="main-video" loop autoplay="autoplay">'+
@@ -90,7 +52,7 @@
             foreach($bandsInTown as $info){
               echo'
               <tr>
-                <td>'.bandDateConversion($info['datetime']).'</td>
+                <td class="bands-date">'.bandDateConversion($info['datetime']).'</td>
                 <td> <a href="https://bandsintown.com/event/14134447?artist=Electric%20Beach" target="_blank">'.$info['venue']['name'].'</a><div class="sub-text">w/'.$info['artists'][1]['name'].'</div></td>
                 <td>'.$info['formatted_location'].'</td>
                 <td>';
@@ -117,7 +79,7 @@
         <hr class="section-break">
         <h1 class="text-center"> Venue Activations </h1>
         <div class="image-container">
-          <img class="background-image" src="/assets/images/CEB_MAP.png"/>
+          <img class="background-image" src="/assets/images/CEB_MAP1.png"/>
 
         </div>
       </section>
@@ -131,7 +93,7 @@
           <a href="http://www.nocturnalwonderland.com/" target="_blank"><img class="col-xs-12 col-sm-6" src="/assets/images/nocturnal.png"/></a>
           <a href="http://lasvegas.electricdaisycarnival.com/" target="_blank"><img class="col-xs-12 col-sm-6" src="/assets/images/edc.png"/></a>
           <a href="http://escapehalloween.com/" target="_blank" ><img class="col-xs-12 col-sm-6" src="/assets/images/escape.png"/></a>
-          <a href="http://hardfest.com/hardsummer" target="_blank" ><img class="col-xs-12 col-sm-6" src="/assets/images/HARD.png"/></a>
+          <a href="http://hardfest.com/hardsummer" target="_blank" ><img class="col-xs-12 col-sm-6" src="/assets/images/HARD1.png"/></a>
           <a href="http://orlando.electricdaisycarnival.com/" target="_blank" ><img class="col-xs-12 col-sm-6" src="/assets/images/edcORL.png"/></a>
         </div>
       </section>

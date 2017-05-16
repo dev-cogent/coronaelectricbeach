@@ -6,7 +6,12 @@
 @font-face {
   font-family: 'TradeGothicLT';
   src: url('/assets/fonts/TradeGothicLT.ttf');
+
+  font-family: 'TradeGothicLTBold';
+  src: url('/assets/fonts/TradeGothicLTBold.ttf');
 }
+
+
 
 $corona-blue:#10AFE3;
 $hover-corona-blue:#06c0fe;
@@ -20,6 +25,7 @@ $sand-yellow:#FBEF82;
 
 $main-font:'caslonantique', sans-serif;
 $secondary-font: 'TradeGothicLT', 'Helvetica', sans-serif;
+$secondary-font-bold: 'TradeGothicLTBold', 'Helvetica', sans-serif;
 
 
 
@@ -28,4 +34,3 @@ $secondary-font: 'TradeGothicLT', 'Helvetica', sans-serif;
   transition:.4s;
   cursor:pointer;
 }
-
