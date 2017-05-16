@@ -1,0 +1,33 @@
+@import 'utility';
+.event-description{
+  font-size: 15px;
+  font-family: $secondary-font;
+  @media screen and(max-width: 1200px){
+    font-size: 12px;
+  }
+}
+
+
+
+.main-video{
+//   position: fixed;
+//   top: 50%;
+//   left: 50%;
+//   min-width: 100%;
+//   min-height: 100%;
+//   width: auto;
+//   height: auto;
+//   z-index: -100;
+//   -ms-transform: translateX(-55%) translateY(-50%);
+//   -moz-transform: translateX(-55%) translateY(-50%);
+//   -webkit-transform: translateX(-55%) translateY(-50%);
+//   transform: translateX(-55%) translateY(-50%);
+// // background: url(/assets/images/CEB_bolt_texture.png) no-repeat;
+// background-size: cover;
+}
+.vimeo-video{
+  &:hover{
+    cursor: pointer;
+  }
+
+}

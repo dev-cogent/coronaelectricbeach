@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'caslonantique';
+  src: url("/assets/fonts/caslonantique.ttf"); }
+
+@font-face {
+  font-family: 'TradeGothicLT';
+  src: url("/assets/fonts/TradeGothicLT.ttf");
+  font-family: 'TradeGothicLTBold';
+  src: url("/assets/fonts/TradeGothicLTBold.ttf"); }
+
+.main-video {
+  margin-top: -12%; }
+
+.date-time {
+  font-size: 17px; }
+
+button.shopify-buy__btn {
+  font-family: "caslonantique", sans-serif; }
+
+.twitter-info {
+  float: left;
+  padding-left: 15px;
+  max-width: 1200px; }
+  @media screen and (max-width: 1300px) {
+    .twitter-info {
+      max-width: 90%; } }
+  @media screen and (max-width: 600px) {
+    .twitter-info {
+      max-width: 250px; } }
+

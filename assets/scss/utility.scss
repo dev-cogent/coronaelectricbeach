@@ -1,46 +1,37 @@
+@font-face {
+  font-family: 'caslonantique';
+  src: url('/assets/fonts/caslonantique.ttf');
+}
+
+@font-face {
+  font-family: 'TradeGothicLT';
+  src: url('/assets/fonts/TradeGothicLT.ttf');
+
+  font-family: 'TradeGothicLTBold';
+  src: url('/assets/fonts/TradeGothicLTBold.ttf');
+}
+
+
+
 $corona-blue:#10AFE3;
+$corona-blue-button: rgb(0,193,243); 
 $hover-corona-blue:#06c0fe;
-$dark-corona-blue:#00A6DD; 
-$darker-corona-blue:#0092d0;
+$dark-corona-blue:#00A6DD;
+$darker-corona-blue:#0198cb;
 $shadow-blue:#1B5E9B;
 $thunder-yellow:#F9EA2A;
-$corona-brown:#885F25;
+$corona-brown:#6f4d2f;
 $sand-yellow:#FBEF82;
 
-$main-font:'caslonantiqueregula';
+
+$main-font:'caslonantique', sans-serif;
+$secondary-font: 'TradeGothicLT', 'Helvetica', sans-serif;
+$secondary-font-bold: 'TradeGothicLTBold', 'Helvetica', sans-serif;
 
 
-body{
-  font-family:$main-font;
-  color:$corona-brown;
-  font-size:28px;
-}
-
-a {
-  color:inherit;
-  transition:.4s;
-  &:hover,&:focus{
-    color:$thunder-yellow;
-    text-decoration:none;
-    transition:.4s;
-  }
-}
 
 @mixin hover($background-color){
   background-color:$background-color;
   transition:.4s;
   cursor:pointer;
-}
-
-.primary-button{
-  background-color:$corona-blue;
-  border:0px;
-  border-radius:5px;
-  color:white;
-  font-family:$main-font;
-  box-shadow:0px 4px 0px $darker-corona-blue;
-  transition:.4s;
-  &:hover{
-    @include hover($hover-corona-blue);
-  }
 }

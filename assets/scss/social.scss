@@ -1,0 +1,24 @@
+@import 'utility';
+
+.main-video{
+  margin-top:-12%;
+}
+.date-time{
+  font-size: 17px;
+}
+
+button.shopify-buy__btn{
+  font-family: $main-font;
+}
+
+.twitter-info{
+  float:left;
+  padding-left: 15px;
+  max-width: 1200px;
+  @media screen and (max-width: 1300px){
+    max-width: 90%;
+  }
+  @media screen and (max-width:600px){
+    max-width: 250px;
+  }
+}
