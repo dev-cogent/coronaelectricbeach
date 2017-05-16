@@ -39,6 +39,7 @@ error_reporting(0);
     </section>
 
     <section class="container content-section">
+      <h1 class="text-center headline"> Latest Images</h1>
       <?php displayInstagramPhotos();   ?>
     </section>
   </div>

@@ -6,7 +6,12 @@
 @font-face {
   font-family: 'TradeGothicLT';
   src: url('/assets/fonts/TradeGothicLT.ttf');
+
+  font-family: 'TradeGothicLTBold';
+  src: url('/assets/fonts/TradeGothicLTBold.ttf');
 }
+
+
 
 $corona-blue:#10AFE3;
 $corona-blue-button: rgb(0,193,243); 
@@ -21,6 +26,7 @@ $sand-yellow:#FBEF82;
 
 $main-font:'caslonantique', sans-serif;
 $secondary-font: 'TradeGothicLT', 'Helvetica', sans-serif;
+$secondary-font-bold: 'TradeGothicLTBold', 'Helvetica', sans-serif;
 
 
 
