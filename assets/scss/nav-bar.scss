@@ -8,6 +8,12 @@
 .navbar-nav.corona{
  padding-left: 5%;
 }
+
+.nav-bar-link {
+  &:hover,&:focus {
+    color: $thunder-yellow;
+  }
+}
 .nav-bar-container{
   background-color:$corona-blue;
   width:100%;
@@ -42,8 +48,9 @@ i.fa.fa-bars.bar-settings{
 }
 
 .navbar-toggle {
-//   float: right;
-//   margin-right: 3%;
+  background-color: transparent;
+  border: 0px;
+  float: right;
 }
 
 

@@ -17,7 +17,7 @@ function displayInstagramPhotos(){
   $photos = getInstagramPhotos();
   foreach ($photos as $key => $photo) {
     echo '<div class="col-xs-12 col-sm-6 col-lg-4 p-b-50">
-            <a href="'.$photo->url.'" target="_blank"><img class="col-xs-12" style="height:320px;" src="'.$photo->image.'"/></a>
+            <a href="'.$photo->url.'" target="_blank"><img class="instagram-image col-xs-12" src="'.$photo->image.'"/></a>
           </div>';
   }
 }

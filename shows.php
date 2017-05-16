@@ -19,12 +19,20 @@
   <!-- Start NAV bar -->
   <?php include 'assets/html/nav.html'; ?>
   <!-- END NAV BAR -->
-  <section class="video-section">
-    <video muted class="main-video" loop autoplay="autoplay" >
-      <source src="/assets/videos/___CEB_VID_4_WEBSITE.mp4" type="video/mp4">
-    </video>
-    <div class="video-divider"></div>
-  </section>
+
+
+  <script>
+  if(screen && screen.width > 480){
+    document.write(' <section class="video-section">'+
+      '<video muted class="main-video" loop autoplay="autoplay" >'+
+        '<source src="/assets/videos/___CEB_VID_4_WEBSITE.mp4" type="video/mp4">'+
+      '</video>'+
+    '</section>');
+  }
+  </script>
+
+
+
 
   <div class="main-info">
     <section class="container content-section">
@@ -38,7 +46,7 @@
             foreach($bandsInTown as $info){
               echo'
               <tr>
-                <td>'.bandDateConversion($info['datetime']).'</td>
+                <td class="band-date">'.bandDateConversion($info['datetime']).'</td>
                 <td> <a href="https://bandsintown.com/event/14134447?artist=Electric%20Beach" target="_blank">'.$info['venue']['name'].'</a><div class="sub-text">w/'.$info['artists'][1]['name'].'</div></td>
                 <td>'.$info['formatted_location'].'</td>
                 <td>';
@@ -104,6 +112,7 @@
 
 
 <script type="text/javascript">
+
 $(document).on('click','.vimeo-video',function(){
   var link = $(this).attr('data-video');
   console.log(window.innerWidth);

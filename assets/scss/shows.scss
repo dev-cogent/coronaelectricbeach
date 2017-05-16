@@ -2,7 +2,12 @@
 .event-description{
   font-size: 15px;
   font-family: $secondary-font;
+  @media screen and(max-width: 1200px){
+    font-size: 12px;
+  }
 }
+
+
 
 .main-video{
 //   position: fixed;

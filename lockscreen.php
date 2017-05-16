@@ -12,7 +12,9 @@
 
   <link rel="stylesheet" href="/global/css/bootstrap.min.css">
   <link rel="stylesheet" href="/global/css/bootstrap-extend.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/lockscreen.css">
+  <link rel="stylesheet" href="assets/css/main.css">
 
 
 
@@ -32,41 +34,39 @@
     <source src="/assets/videos/CEB-sand-logo.mp4" type="video/mp4">
   </video>
 
-<div class="row">
+<div class="row lockscreen-view">
 
-  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 lock-container">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 lock-container small">
 
-    <div class="beats-text-header"> Beats meet the beach. </div>
-    <div class="verify-text"> Please verify your age </div>
+    <div class="beats-text-header landscape"> Beats meet the beach. </div>
+    <div class="verify-text landscape"> Please verify your age </div>
 
     <div class="circles-verify-container">
 
-      <input class="month" type="text" placeholder="MM" maxlength="2">
-      <input class="day" type="text" placeholder="DD" maxlength="2">
-      <input class="year" type="text" placeholder="YYYY" maxlength="4">
+      <input class="month small" type="text" placeholder="MM" maxlength="2">
+      <input class="day small" type="text" placeholder="DD" maxlength="2">
+      <input class="year small" type="text" placeholder="YYYY" maxlength="4">
     </div>
 
-        <div class="submit-btn-container"> <button formaction="submit" onclick="" type="button" class="submit-btn"> ENTER </button> </div>
+        <div class="submit-btn-container landscape"> <button formaction="submit" onclick="" type="button" class="submit-btn"> ENTER </button> </div>
 
-        <div class="lockscreen-footer col-xs-12 col-sm-12 col-md-12 col-lg-7 ">
-
-              <img src="/assets/images/twitter-logo-white.png" class="twitter-logo-white">
-              <img src="/assets/images/fb-logo-white.png" class="fb-logo-white">
-              <img src="/assets/images/ig-logo-white.png" class="insta-logo-white">
-              <div class="relax-responsibly"> Relax responsibly®. </div>
-
-              <div class="copyright-text"> Corona Extra® Beer. Imported by Crown Imports, Chicago, IL </div>
-                <div class="footer-links">
-                  <a href="https://coronausa.com/privacy" class="footer-link"> Privacy Policy | </a>
-                  <a href="https://coronausa.com/contactus" class="footer-link"> Contact Us | </a>
-                  <a href="https://coronausa.com/terms" class="footer-link"> Terms and Conditions  </a>
-                 </div>
-
-        </div>
   </div>
 </div>
 
-</div>
+<div class="lockscreen-footer landscape col-xs-12 col-sm-12 col-md-12 col-lg-7 ">
 
+      <img src="/assets/images/twitter-logo-white.png" class="twitter-logo-white">
+      <img src="/assets/images/fb-logo-white.png" class="fb-logo-white">
+      <img src="/assets/images/ig-logo-white.png" class="insta-logo-white">
+      <div class="relax-responsibly"> Relax responsibly®. </div>
+
+      <div class="copyright-text"> Corona Extra® Beer. Imported by Crown Imports, Chicago, IL </div>
+        <div class="footer-links">
+          <a href="https://coronausa.com/privacy" class="footer-link"> Privacy Policy | </a>
+          <a href="https://coronausa.com/contactus" class="footer-link"> Contact Us | </a>
+          <a href="https://coronausa.com/terms" class="footer-link"> Terms and Conditions  </a>
+         </div>
+
+</div>
 </body>
 </html>

@@ -1,4 +1,7 @@
 @import 'utility';
+html{
+  overflow-x: hidden;
+}
 
 body{
   font-family:$main-font;
@@ -18,7 +21,7 @@ a {
   color:inherit;
   transition:.4s;
   &:hover,&:focus{
-    color:$thunder-yellow;
+    color:$corona-blue;
     text-decoration:none;
     transition:.4s;
   }
@@ -33,6 +36,10 @@ h1{
   letter-spacing: 5px;
 }
 
+.main-info{
+  overflow-x: hidden;
+}
+
 
 .section-break{
   background-color:$corona-brown;
@@ -42,7 +49,7 @@ h1{
 
 
 .primary-button{
-  background-color:$corona-blue;
+  background-color:$corona-blue-button;
   border:0px;
   border-radius:5px;
   color:white;
@@ -76,26 +83,60 @@ h1{
     @media screen and (max-width: 1200px){
       height:330px;
     }
-    @media screen and (max-width: 450px){
-      height:165px;
-    }
+}
+
+@media (min-width:1px) and (max-width:480px){
+  .video-section{
+    height: 220px;
+  }
+}
+@media (min-width:481px) and (max-width:685px){
+  .video-section {
+    height: 285px;
+  }
 }
 
 .content-section{
   height:100%;
-  padding-top: 30px;
 }
+
+
+.band-date {
+  font-family: "Helvetica", sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  @media screen and (max-width:500px){
+    padding-right: 1%;
+    font-size:11px;
+  }
+}
+
+
+.dateTime{
+  display:inline-block;
+  padding-left: 3px;
+  margin-left: 5%;
+  @media screen and (max-width: 500px){
+    padding-left:0px;
+    margin-left: 0px;
+  }
+}
+
 
 .bands-in-town-table{
   width: 100%;
-  font-size: 18px;
+  font-size: 17px;
   tr{
     border-top: 1px solid rgba(130,130,130,.15);
   }
+
   td{
     padding-top: 15px;
     padding-bottom: 15px;
   }
+
   @media screen and (max-width:500px){
     font-size:15px;
   }
@@ -107,11 +148,22 @@ h1{
   opacity:.6;
 }
 
+
+@media screen and (max-width: 768px) {
+  .bands-btn{
+    margin-bottom: 12%;
+  }
+  .bands-in-town-table td {
+    text-align: -webkit-center;
+  }
+}
+
 .bands-btn{
   font-size:13px;
   letter-spacing: 1px;
   margin-right: 10px;
   padding-left: 10px;
+  padding-top: 5px;
   padding-right: 10px;
   @media screen and (max-width:500px){
     font-size: 10px;
