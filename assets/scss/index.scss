@@ -53,13 +53,12 @@ footer {
   text-align: center;
   width:30px;
   height:30px;
+  background-color: $corona-brown;
 }
 
-a.hover-color{
-  color: $corona-brown;
+.fa.icon-footer:hover{
+  color:white;
 }
-  a.hover-color:hover{
-    color:$dark-corona-blue;
-    text-decoration:none;
-    transition:.4s;
+i.fa.icon-footer {
+    color: $sand-yellow;
 }
