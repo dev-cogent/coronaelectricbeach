@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="/assets/css/nav-bar.css">
   <link rel="stylesheet" href="/assets/css/social.css">
   <title> MERCH - Corona Electric Beach</title>
+
 </head>
 
 
@@ -67,6 +68,11 @@
           },
           "styles": {
             "product": {
+              "font-family": "Calson Antique Bold, serif;",
+              "font-weight": "bolder",
+              "color": "#6f4d2f",
+              "margin-bottom": "40px",
+
               "@media (min-width: 601px)": {
                 "max-width": "calc(33.33333% - 30px)",
                 "margin-left": "30px",
@@ -75,6 +81,10 @@
             },
             "button": {
               "background-color": "#10afe3",
+              "font-family": "Calson Antique Bold, serif;",
+              "font-weight": "bolder",
+              "letter-spacing": "1px",
+              "font-size": "13px",
               ":hover": {
                 "background-color": "#0e9ecc"
               },
