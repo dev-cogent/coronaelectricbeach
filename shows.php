@@ -112,6 +112,7 @@
 
 
 <script type="text/javascript">
+
 $(document).on('click','.vimeo-video',function(){
   var link = $(this).attr('data-video');
   console.log(window.innerWidth);

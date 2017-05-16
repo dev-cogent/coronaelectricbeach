@@ -1,0 +1,22 @@
+# 1 Month for most static assets
+<filesMatch ".(css|jpg|jpeg|png|gif|js|ico)$">
+Header set Cache-Control "max-age=2592000, public"
+</filesMatch>
+
+<ifModule mod_headers.c>
+  <filesMatch ".(css|jpg|jpeg|png|gif|swf|svg|js|ico)$">
+    Header append Vary: Accept-Encoding
+  </filesMatch>
+  </ifModule>
+
+  <ifModule mod_headers.c>
+  <filesMatch ".(css|jpg|jpeg|png|gif|swf|svg|js|ico)$">
+    Header set Cache-Control "max-age=2592000, public"
+  </filesMatch>
+  </ifModule>
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+</IfModule>

@@ -15,14 +15,7 @@
     .event-description {
       font-size: 12px; } }
 
-.band-date {
-  font-family: "Helvetica", sans-serif;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 700; }
-  @media (max-width: 768px) {
-    .band-date {
-      padding-right: 1%; } }
-
 .vimeo-video:hover {
   cursor: pointer; }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNob3dzLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLDZCQUE2QjtFQUM3Qiw0Q0FBNEMsRUFBRTs7QUFFaEQ7RUFDRSw2QkFBNkI7RUFDN0IsNENBQTRDO0VBQzVDLGlDQUFpQztFQUNqQyxnREFBZ0QsRUFBRTs7QUFFcEQ7RUFDRSxnQkFBZ0I7RUFDaEIsc0RBQXNELEVBQUU7RUFDeEQ7SUFDRTtNQUNFLGdCQUFnQixFQUFFLEVBQUU7O0FBRTFCO0VBQ0UsZ0JBQWdCLEVBQUUiLCJmaWxlIjoic2hvd3MuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQGZvbnQtZmFjZSB7XG4gIGZvbnQtZmFtaWx5OiAnY2FzbG9uYW50aXF1ZSc7XG4gIHNyYzogdXJsKFwiL2Fzc2V0cy9mb250cy9jYXNsb25hbnRpcXVlLnR0ZlwiKTsgfVxuXG5AZm9udC1mYWNlIHtcbiAgZm9udC1mYW1pbHk6ICdUcmFkZUdvdGhpY0xUJztcbiAgc3JjOiB1cmwoXCIvYXNzZXRzL2ZvbnRzL1RyYWRlR290aGljTFQudHRmXCIpO1xuICBmb250LWZhbWlseTogJ1RyYWRlR290aGljTFRCb2xkJztcbiAgc3JjOiB1cmwoXCIvYXNzZXRzL2ZvbnRzL1RyYWRlR290aGljTFRCb2xkLnR0ZlwiKTsgfVxuXG4uZXZlbnQtZGVzY3JpcHRpb24ge1xuICBmb250LXNpemU6IDE1cHg7XG4gIGZvbnQtZmFtaWx5OiBcIlRyYWRlR290aGljTFRcIiwgXCJIZWx2ZXRpY2FcIiwgc2Fucy1zZXJpZjsgfVxuICBAbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiAxMjAwcHgpIHtcbiAgICAuZXZlbnQtZGVzY3JpcHRpb24ge1xuICAgICAgZm9udC1zaXplOiAxMnB4OyB9IH1cblxuLnZpbWVvLXZpZGVvOmhvdmVyIHtcbiAgY3Vyc29yOiBwb2ludGVyOyB9XG4iXX0= */
