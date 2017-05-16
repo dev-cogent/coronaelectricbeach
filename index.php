@@ -72,7 +72,7 @@
   </script>
 
     <div class="main-info">
-      <section class="container  content-section text-center">
+      <section class="container  content-section text-center beats">
         <br/>
         <p>Experience all the fun in the sun with Corona Electric Beach featuring world-renowned DJs.</p>
 
@@ -90,7 +90,7 @@
             foreach($bandsInTown as $info){
               echo'
               <tr>
-                <td>'.bandDateConversion($info['datetime']).'</td>
+                <td class="band-date">'.bandDateConversion($info['datetime']).'</td>
                 <td> <a href="https://bandsintown.com/event/14134447?artist=Electric%20Beach" target="_blank">'.$info['venue']['name'].'</a><div class="sub-text">w/'.$info['artists'][1]['name'].'</div></td>
                 <td>'.$info['formatted_location'].'</td>
                 <td>';

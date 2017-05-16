@@ -8,6 +8,12 @@
 .navbar-nav.corona{
  padding-left: 5%;
 }
+
+.nav-bar-link {
+  &:hover,&:focus {
+    color: $thunder-yellow;
+  }
+}
 .nav-bar-container{
   background-color:$corona-blue;
   width:100%;
