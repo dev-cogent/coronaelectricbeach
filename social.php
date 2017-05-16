@@ -35,13 +35,14 @@ error_reporting(0);
   <div class="main-info">
     <section class="container content-section">
       <h1 class="text-center headline"> Stay Connected </h1>
-      <?php  getTweets(); ?>
+      <?php displayInstagramPhotos();   ?>
+
     </section>
 
     <section class="container content-section">
       <hr class="section-break">
-      <h1 class="text-center headline"> Latest Images</h1>
-      <?php displayInstagramPhotos();   ?>
+      <h1 class="text-center headline"> Latest Tweets</h1>
+      <?php  getTweets(); ?>
     </section>
   </div>
 
