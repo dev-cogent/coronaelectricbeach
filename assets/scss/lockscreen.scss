@@ -138,6 +138,14 @@ input[type="text"].year::-webkit-input-placeholder, input[type="text"].day::-web
   margin-bottom: 2%;
   font-family: $secondary-font;
 }
+.error-message {
+  color: #ffffff;
+  text-align: center;
+  font-size: 32px;
+  margin: 130px auto; 
+
+
+}
 
 .submit-btn-container {
     text-align: -webkit-center;
@@ -155,11 +163,12 @@ button.submit-btn {
 
   .lockscreen-footer {
     color: #ffffff;
-    position: fixed;
     font-size: 13px;
+    position: fixed;
     bottom: 35px;
     right: 0;
     left:0;
+    z-index: 1500;
     font-family: $secondary-font;
     text-align: -webkit-center;
     .insta-logo-white, .fb-logo-white, .twitter-logo-white{
