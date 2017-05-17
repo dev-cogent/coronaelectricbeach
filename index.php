@@ -90,15 +90,37 @@
         <hr class="section-break">
         <h1 class="text-center"> Festival Activations </h1>
         <div class="image-container">
-          <a href="http://www.springawakeningfestival.com/" target="_blank"><img class="col-xs-12 col-sm-6" src="/assets/images/springawakening.png"/></a>
-          <a href="http://www.nocturnalwonderland.com/" target="_blank"><img class="col-xs-12 col-sm-6" src="/assets/images/nocturnal.png"/></a>
-          <a href="http://lasvegas.electricdaisycarnival.com/" target="_blank"><img class="col-xs-12 col-sm-6" src="/assets/images/edc.png"/></a>
-          <a href="http://escapehalloween.com/" target="_blank" ><img class="col-xs-12 col-sm-6" src="/assets/images/escape.png"/></a>
-          <a href="http://hardfest.com/hardsummer" target="_blank" ><img class="col-xs-12 col-sm-6" src="/assets/images/HARD1.png"/></a>
-          <a href="http://orlando.electricdaisycarnival.com/" target="_blank" ><img class="col-xs-12 col-sm-6" src="/assets/images/edcORL.png"/></a>
-        </div>
+        <div class="row">
+        <div class="col-xs-12 col-sm-12 cold-md-12">
+          <div class="col-xs-8 col-sm-4 col-lg-4">
+          <a href="http://www.springawakeningfestival.com/" target="_blank">
+          <img class="festivals spring" src="/assets/images/springawakening.png"/></a>
+          </div>
+          <div class="col-xs-8 col-sm-4 col-lg-4">
+          <a href="http://www.nocturnalwonderland.com/" target="_blank">
+          <img class="festivals nocturnal" src="/assets/images/nocturnal.png"/></a>
+          </div>
+          <div class="col-xs-8 col-sm-4 col-lg-4">
+          <a href="http://lasvegas.electricdaisycarnival.com/" target="_blank">
+          <img class="festivals electric" src="/assets/images/edc.png"/></a>
+          </div>
+          <div class="col-xs-8 col-sm-4 col-lg-4">
+          <a href="http://escapehalloween.com/" target="_blank">
+          <img class="festivals escape" src="/assets/images/escape.png"/></a>
+          </div>
+          <div class="col-xs-8 col-sm-4 col-lg-4">
+          <a href="http://hardfest.com/hardsummer" target="_blank">
+          <img class="festivals hard" src="/assets/images/HARD1.png"/></a>
+          </div>
+          <div class="col-xs-8 col-sm-4 col-lg-4">
+          <a href="http://orlando.electricdaisycarnival.com/" target="_blank">
+          <img class="festivals electric" src="/assets/images/edcORL.png"/></a>
+              </div>
+            </div>
+          </div
+       </div>
       </section>
-    </div>
+   
 
 
 
