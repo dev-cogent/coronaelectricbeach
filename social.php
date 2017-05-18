@@ -1,5 +1,5 @@
 <?php
-error_reporting(0);
+error_reporting(-1);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -33,141 +33,30 @@ error_reporting(0);
 
 
   <div class="main-info">
-    <section class="container content-section">
-      <h1 class="text-center headline"> Stay Connected </h1>
-      <?php displayInstagramPhotos();   ?>
 
-    </section>
+      <h1 class="text-center headline"> Stay Connected @coronaelectricbeach </h1>
+      <div class="social-card container">
+        <div class="cards">
+                <?php displayInstagramPhotos();   ?>
+          <!-- Cards go here -->
 
-    <section class="container content-section">
+        </div>
+      </div>
+
+
+
+
       <hr class="section-break">
       <h1 class="text-center headline"> Latest Tweets</h1>
+      <div class="social-card container">
+        <div class="cards">
+
       <?php  getTweets(); ?>
-    </section>
-  </div>
-
-  <div class="social-card container">
-    <div class="cards">
-      <div class="card">
-        <div class="card-content">
-          <div class="card-title"> <img class="card-header-image" src="http://fillmurray.com/300/300"/> </div>
-          <div class="card-body">
-            <div class="card-body-header">
-               <div class="insta-social-icon"> <i class="fa fa-instagram social-card" aria-hidden="true"></i> </div>
-            <div class="account-name"> @coronaextrausa </div>  </div>
-            <p class="card-body-caption"> William James "Bill" Murray is an awesome person and he does really random things and we could write books about that. He is laso an actor
-              who has been in a lto of movies.  </p>
-             </div>
-
-          </div>
-        </div>
-
-
-        <div class="card">
-          <div class="card-content">
-            <div class="card-title"> <img class="card-header-image" src="http://fillmurray.com/300/300"/> </div>
-            <div class="card-body">
-              <div class="card-body-header">
-                 <div class="insta-social-icon"> <i class="fa fa-instagram social-card" aria-hidden="true"></i> </div>
-              <div class="account-name"> @coronaextrausa </div>  </div>
-              <p class="card-body-caption"> William James "Bill" Murray is an awesome person and he does really random things and we could write books about that. He is laso an actor
-                who has been in a lto of movies.  </p>
-               </div>
-
-            </div>
-          </div>
-
-
-
-          <div class="card">
-            <div class="card-content">
-              <div class="card-title"> <img class="card-header-image" src="http://fillmurray.com/300/300"/> </div>
-              <div class="card-body">
-                <div class="card-body-header">
-                   <div class="insta-social-icon"> <i class="fa fa-instagram social-card" aria-hidden="true"></i> </div>
-                <div class="account-name"> @coronaextrausa </div>  </div>
-                <p class="card-body-caption"> William James "Bill" Murray is an awesome person and he does really random things and we could write books about that. He is laso an actor
-                  who has been in a lto of movies.  </p>
-                 </div>
-
-              </div>
-            </div>
-
-
-            <div class="card">
-              <div class="card-content">
-                <div class="card-title"> <img class="card-header-image" src="http://fillmurray.com/300/300"/> </div>
-                <div class="card-body">
-                  <div class="card-body-header">
-                     <div class="insta-social-icon"> <i class="fa fa-instagram social-card" aria-hidden="true"></i> </div>
-                  <div class="account-name"> @coronaextrausa </div>  </div>
-                  <p class="card-body-caption"> William James "Bill" Murray is an awesome person and he does really random things and we could write books about that. He is laso an actor
-                    who has been in a lto of movies.  </p>
-                   </div>
-
-                </div>
-              </div>
-
-
-            <div class="card">
-              <div class="card-content">
-                <div class="card-title"> <img class="card-header-image" src="http://fillmurray.com/300/300"/> </div>
-                <div class="card-body">
-                  <div class="card-body-header">
-                     <div class="insta-social-icon"> <i class="fa fa-instagram social-card" aria-hidden="true"></i> </div>
-                  <div class="account-name"> @coronaextrausa </div>  </div>
-                  <p class="card-body-caption"> William James "Bill" Murray is an awesome person and he does really random things and we could write books about that. He is laso an actor
-                    who has been in a lto of movies.  </p>
-                   </div>
-
-                </div>
-              </div>
-
-
-              <div class="card">
-                <a class="card-content">
-                  <div class="card-title"> <img class="card-header-image" src="http://fillmurray.com/300/300"/> </div>
-                  <div class="card-body">
-                    <div class="card-body-header">
-                       <div class="insta-social-icon"> <i class="fa fa-instagram social-card" aria-hidden="true"></i> </div>
-                    <div class="account-name"> @coronaextrausa </div>  </div>
-                    <p class="card-body-caption"> William James "Bill" Murray is an awesome person and he does really random things and we could write books about that. He is laso an actor
-                      who has been in a lto of movies.  </p>
-                     </div>
-
-                  </a>
-                </div>
-
-                <div class="card">
-                  <div class="card-content">
-                    <div class="card-title"> <img class="card-header-image" src="http://fillmurray.com/300/300"/> </div>
-                    <div class="card-body">
-                      <div class="card-body-header">
-                         <div class="insta-social-icon"> <i class="fa fa-instagram social-card" aria-hidden="true"></i> </div>
-                      <div class="account-name"> @coronaextrausa </div>  </div>
-                      <p class="card-body-caption"> William James "Bill" Murray is an awesome person and he does really random things and we could write books about that. He is laso an actor
-                        who has been in a lto of movies.  </p>
-                       </div>
-
-                    </div>
-                  </div>
-
-                  <div class="card">
-                    <div class="card-content">
-                      <div class="card-title"> <img class="card-header-image" src="http://fillmurray.com/300/300"/> </div>
-                      <div class="card-body">
-                        <div class="card-body-header">
-                           <div class="insta-social-icon"> <i class="fa fa-instagram social-card" aria-hidden="true"></i> </div>
-                        <div class="account-name"> @coronaextrausa </div>  </div>
-                        <p class="card-body-caption"> William James "Bill" Murray is an awesome person and he does really random things and we could write books about that. He is laso an actor
-                          who has been in a lto of movies.  </p>
-                         </div>
-
-                      </div>
-                    </div>
-
     </div>
   </div>
+  </div>
+
+
 
 
 
