@@ -105,7 +105,7 @@
             </div>
         </div>
           <div class="col-xs-12 col-sm-6 col-lg-4">
-              <div class="logo-container">
+              <div class="logo-container hard">
           <a href="http://hardfest.com/hardsummer" target="_blank">
           <img class="festivals hard" src="/assets/images/HARD1.png"/></a>
               </div>
