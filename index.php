@@ -86,48 +86,54 @@
         </div>
       </section>
 
-      <section class="container content-section">
+      <!-- <section class="container content-section"> -->
         <hr class="section-break">
         <h1 class="text-center"> Festival Activations </h1>
-        <div class="image-container">
+        <div class="container">
         <div class="row">
-        <div class="col-xs-12 col-sm-12 cold-md-12">
+        <!-- <div class="col-xs-12 col-sm-12"> -->
           <div class="col-xs-12 col-sm-6 col-lg-4">
+            <div class="logo-container">
           <a href="http://lasvegas.electricdaisycarnival.com/" target="_blank">
-          <img class="festivals electric lasvegas" src="/assets/images/edc-lasvegas.png"/></a>
+          <img class="festivals electric lasvegas" src="/assets/images/edc-las-vegas-optimized.png"/></a>
           </div>
+            </div>
           <div class="col-xs-12 col-sm-6 col-lg-4">
+            <div class="logo-container">
           <a href="http://www.springawakeningfestival.com/" target="_blank">
           <img class="festivals spring" src="/assets/images/springawakening.png"/></a>
-          </div>
+            </div>
+        </div>
           <div class="col-xs-12 col-sm-6 col-lg-4">
+              <div class="logo-container">
           <a href="http://hardfest.com/hardsummer" target="_blank">
           <img class="festivals hard" src="/assets/images/HARD1.png"/></a>
+              </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-lg-4">
-           <div class="row-2">
+           <div class="logo-container">
           <a href="http://www.nocturnalwonderland.com/" target="_blank">
           <img class="festivals nocturnal" src="/assets/images/nocturnal.png"/></a>
           </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-lg-4">
-            <div class="row-2">
+            <div class="logo-container">
           <a href="http://escapehalloween.com/" target="_blank">
           <img class="festivals escape" src="/assets/images/escape.png"/></a>
             </div>
           </div>
-          
+
           <div class="col-xs-12 col-sm-6 col-lg-4">
-            <div class="row-2">
+            <div class="logo-container">
           <a href="http://orlando.electricdaisycarnival.com/" target="_blank">
-          <img class="festivals electric orlando" src="/assets/images/edcORL.png"/></a>
+          <img class="festivals electric orlando" src="/assets/images/edc-orlando-optimized.png"/></a>
             </div>
           </div>
           </div>
         </div>
-      </div>
-     
-      </section>
+      <!-- </div>
+
+      </section> -->
 
 
 

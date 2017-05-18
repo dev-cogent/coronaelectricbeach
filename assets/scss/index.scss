@@ -50,27 +50,22 @@ img.festivals{
 }
 
 img.festivals.electric {
-    width: 50%;
+    // width: 50%;
 }
 
 img.festivals.electric.lasvegas {
-    width: 40%;
-    margin-left: 140px;
-    object-fit: contain;
-    @media screen and(min-width: $breakpoint-iphone5){
-    width: 40%;
-    margin-left: 80px;
-  }
+  //   width: 40%;
+  //   margin-left: 140px;
+  //   object-fit: contain;
+  //   @media screen and(min-width: $breakpoint-iphone5){
+  //   width: 40%;
+  //   margin-left: 80px;
+  // }
 }
 
 img.festivals.electric.orlando {
-    width: 38%;
-    margin-left: 100px;
-    object-fit: contain;
-   
-}
+    // width: 38%;
+    // margin-left: 100px;
+    // object-fit: contain;
 
-.row-2{
-  padding-top: 10px;
 }
-
