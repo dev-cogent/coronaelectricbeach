@@ -14,6 +14,8 @@ function getInstagramMedia(){
         $instagramPhotos->$id->video = $info['videos']['standard_resolution']['url'];
       }
       $instagramPhotos->$id->url = $info['link'];
+      $instagramPhotos->$id->caption = $info['caption']['text'];
+
   }
   return $instagramPhotos;
 }
@@ -21,17 +23,27 @@ function getInstagramMedia(){
 function displayInstagramPhotos(){
   $photos = getInstagramMedia();
   foreach ($photos as $key => $photo) {
-    echo '<div class="col-xs-12 col-sm-6 col-lg-4 p-b-50">
-            <a href="'.$photo->url.'" target="_blank">';
-            if($photo->video){
-              echo '<video class="main-video" loop autoplay="autoplay">
-                <source src="'.$photo->video.'" type="video/mp4">
-              </video>';
-            }else{
-            echo'<img class="instagram-image col-xs-12" src="'.$photo->image.'"/>';
-          }
-            echo'</a>
-          </div>';
+    echo '<div class="card">
+
+            <a href="'.$photo->url.'" target="_blank" class="card-content">
+              <div class="card-title">';
+              if($photo->video){
+                echo '<video class="card-header-video" loop autoplay="autoplay">
+                  <source src="'.$photo->video.'" type="video/mp4">
+                </video></div>';
+              } else{
+                echo '<img class="card-header-image" src="'.$photo->image.'"/> </div>';
+              }
+              echo'
+              <div class="card-body">
+                <div class="card-body-header">
+                   <div class="insta-social-icon"> <i class="fa fa-instagram social-card" aria-hidden="true"></i> </div>
+                <div class="account-name"> @coronaelectricbeach </div>  </div>
+                <p class="card-body-caption"> '.$photo->caption.' </p>
+                 </div>
+
+              </a>
+            </div>';
   }
 }
 ?>

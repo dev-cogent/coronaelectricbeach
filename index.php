@@ -36,9 +36,10 @@
     <div class="main-info">
       <section class="container  content-section text-center beats">
         <br/>
-        <p>Experience all the fun in the sun with Corona Electric Beach featuring world-renowned DJs.</p>
+        <p class="mermaid-text">Experience all the fun in the sun with Corona Electric Beach featuring world-renowned DJs.</p>
 
-      <p>Traveling across the US and partnering with festival pioneers, Corona Electric Beach is where “Beats meet the beach”.</p>
+      <p class="mermaid-text">Traveling across the US and partnering with festival pioneers,</p><p class="mermaid-text">Corona Electric Beach is where “Beats meet the beach”.</p>
+
       </section>
 
       <section class="container content-section">
@@ -127,7 +128,7 @@
       </div>
      
       </section>
-   
+
 
 
 
