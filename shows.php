@@ -194,10 +194,15 @@
           ],
         ];
         foreach($imageObj as $key => $info){
-          echo '   <div class="col-sm-12 col-md-6 col-lg-4 p-b-10 text-center vimeo-video" data-video="'.$info['data'].'">
-                      <img class="photo-shows" src="'.$info['url'].'"/>
+          echo '<div class="col-sm-12 col-md-6 col-lg-4 p-b-10 text-center vimeo-video" data-video="'.$info['data'].'">
+                      <div class="image-container">
+                          <div class="video-overlay">
+                            <i class="fa fa-play-circle" aria-hidden="true"></i>
+                          </div>
+                          <img class="photo-shows" src="'.$info['url'].'"/>
+                      </div>
                     <span class="event-description">'.$info['name'].'</span>
-                  </div>';
+               </div>';
         }
 
         ?>
@@ -219,6 +224,9 @@
 
 
 <script type="text/javascript">
+
+
+
 
 $(document).on('click','.vimeo-video',function(){
   var link = $(this).attr('data-video');

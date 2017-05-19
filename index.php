@@ -39,6 +39,7 @@
         <p class="mermaid-text">Experience all the fun in the sun with Corona Electric Beach featuring world-renowned DJs.</p>
 
       <p class="mermaid-text">Traveling across the US and partnering with festival pioneers, Corona Electric Beach is where</p><p class="mermaid-text">“Beats meet the beach”</p>
+      <!-- "bears beets battlestar galactica" - Jim Halpert -->
 
       </section>
 
