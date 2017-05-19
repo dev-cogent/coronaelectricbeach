@@ -38,8 +38,17 @@
         <br/>
         <p class="mermaid-text">Experience all the fun in the sun with Corona Electric Beach featuring world-renowned DJs.</p>
 
-      <p class="mermaid-text">Traveling across the US and partnering with festival pioneers,</p><p class="mermaid-text">Corona Electric Beach is where “Beats meet the beach”.</p>
+      <p class="mermaid-text">Traveling across the US and partnering with festival pioneers, Corona Electric Beach is where</p><p class="mermaid-text">“Beats meet the beach”</p>
 
+      </section>
+
+      <section class="container content-section">
+        <hr class="section-break">
+        <h1 class="text-center"> Venue Activations </h1>
+        <div class="image-container">
+          <img class="background-image" src="/assets/images/CEB_MAP1.png"/>
+
+        </div>
       </section>
 
       <section class="container content-section">
@@ -77,14 +86,7 @@
         </table>
       </section>
 
-      <section class="container content-section">
-        <hr class="section-break">
-        <h1 class="text-center"> Venue Activations </h1>
-        <div class="image-container">
-          <img class="background-image" src="/assets/images/CEB_MAP1.png"/>
 
-        </div>
-      </section>
 
       <!-- <section class="container content-section"> -->
         <hr class="section-break">
