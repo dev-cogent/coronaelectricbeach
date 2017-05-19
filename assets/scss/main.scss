@@ -1,6 +1,9 @@
 @import 'utility';
 html{
   overflow-x: hidden;
+  box-sizing: border-box;
+  // Avoid scrollbar "jump": http://css-tricks.com/elegant-fix-jumping-scrollbar-issue/
+  margin-left: calc(100vw - 100%);
 }
 
 body{
@@ -16,6 +19,7 @@ body{
     font-size:20px;
   }
 }
+
 
 a {
   color:inherit;
