@@ -28,7 +28,7 @@ function displayInstagramPhotos(){
             <a href="'.$photo->url.'" target="_blank" class="card-content">
               <div class="card-title">';
               if($photo->video){
-                echo '<video class="card-header-video" loop autoplay="autoplay">
+                echo '<video class="card-header-video" loop autoplay="autoplay" muted>
                   <source src="'.$photo->video.'" type="video/mp4">
                 </video></div>';
               } else{

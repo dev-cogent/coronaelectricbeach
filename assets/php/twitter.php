@@ -30,6 +30,7 @@ function getTweets(){
       $tweetsObj->$id->username = 'Electric Beach';
       $tweetsObj->$id->created = $tweet['created_at'];
       $tweetsObj->$id->media = $tweet['entities']['media'][0]['media_url'];
+
       $count++;
    }
   displayTweets($tweetsObj);
@@ -40,15 +41,18 @@ function displayTweets($tweetsObj){
     echo '<div class="card">
             <div class="card-content">
               <div class="card-title">
-              <img class="card-header-image" src="'.$value->media.'"/> </div>
-              <div class="card-body">
-                <div class="card-body-header">
-                   <div class="insta-social-icon"> <i class="fa fa-twitter social-card" aria-hidden="true"></i> </div>
-                <div class="account-name"> @coronaelectricbeach </div>  </div>
-                <p class="card-body-caption"> '.$value->text.' </p>
-                 </div>
-              </div>
-            </div>';
+              <a href="https://twitter.com/ElectricBeach/status/'.$key.'" target=_blank">
+                <img class="card-header-image" src="'.$value->media.'"/> </div>
+                <div class="card-body">
+                  <div class="card-body-header">
+                  <div class="insta-social-icon"> <i class="fa fa-twitter social-card" aria-hidden="true"></i> </div>
+                  <div class="account-name">@coronaelectricbeach </div>
+                </div>
+              </a>
+              <p class="card-body-caption"> '.$value->text.' </p>
+               </div>
+            </div>
+          </div>';
 
 
 }

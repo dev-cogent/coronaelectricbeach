@@ -34,7 +34,7 @@ error_reporting(-1);
 
   <div class="main-info">
 
-      <h1 class="text-center headline"> Stay Connected @coronaelectricbeach </h1>
+      <h1 class="text-center headline"><a href="https://instagram.com/coronaelectricbeach" target="_blank"> Stay Connected @coronaelectricbeach </a></h1>
       <div class="social-card container">
         <div class="cards">
                 <?php displayInstagramPhotos();   ?>
@@ -47,7 +47,7 @@ error_reporting(-1);
 
 
       <hr class="section-break">
-      <h1 class="text-center headline"> Latest Tweets</h1>
+      <h1 class="text-center headline"><a href="https://twitter.com/electricbeach" target="_blank"> Latest Tweets @electricbeach </a></h1>
       <div class="social-card container">
         <div class="cards">
 
