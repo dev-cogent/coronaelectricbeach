@@ -3,7 +3,17 @@
 
 <html lang="en">
   <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WQ86GL9');</script>
+    <!-- End Google Tag Manager -->
     <?php include 'assets/html/head.html'; ?>
+
+
+
     <script type="text/javascript" src="/assets/js/index.js"></script>
     <link rel="stylesheet" href="/assets/css/nav-bar.css">
     <link rel="stylesheet" href="/assets/css/index.css">
@@ -15,6 +25,11 @@
 
 
   <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WQ86GL9"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
 
   <!-- Start NAV bar -->
     <?php include 'assets/html/nav.html'; ?>
@@ -36,10 +51,67 @@
     <div class="main-info">
       <section class="container  content-section text-center beats">
         <br/>
-        <p>Experience all the fun in the sun with Corona Electric Beach featuring world-renowned DJs.</p>
+        <p class="mermaid-text">Experience all the fun in the sun with Corona Electric Beach featuring world-renowned DJs.</p>
 
-      <p>Traveling across the US and partnering with festival pioneers, Corona Electric Beach is where “Beats meet the beach”.</p>
+      <p class="mermaid-text">Traveling across the US and partnering with festival pioneers, Corona Electric Beach is where</p><p class="mermaid-text">“Beats meet the beach”</p>
+      <!-- "bears beets battlestar galactica" - Jim Halpert -->
+
       </section>
+
+      <section class="container content-section">
+        <hr class="section-break">
+        <h1 class="text-center"> Venue Activations </h1>
+        <div class="image-container">
+          <img class="background-image" src="/assets/images/CEB_MAP1.png"/>
+
+        </div>
+      </section>
+
+
+      <hr class="section-break">
+      <h1 class="text-center"> Festival Activations </h1>
+      <div class="container">
+      <!-- <div class="row"> -->
+      <!-- <div class="col-xs-12 col-sm-12"> -->
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <!-- <div class="logo-container"> -->
+        <a href="http://lasvegas.electricdaisycarnival.com/" class="festival-link vegas" target="_blank">
+        <img class="festivals electric lasvegas" src="/assets/images/edc-las-vegas-optimized.png"/></a>
+        <!-- </div> -->
+          </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <!-- <div class="logo-container"> -->
+        <a href="http://www.springawakeningfestival.com/" class="festival-link spring" target="_blank">
+        <img class="festivals spring" src="/assets/images/springawakening.png"/></a>
+          <!-- </div> -->
+      </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <!-- <div class="logo-container hard"> -->
+        <a href="http://hardfest.com/hardsummer" class="festival-link hardfest" target="_blank">
+        <img class="festivals hard" src="/assets/images/hard-3.png"/></a>
+            <!-- </div> -->
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+         <!-- <div class="logo-container"> -->
+        <a href="http://www.nocturnalwonderland.com/" class="festival-link noct" target="_blank">
+        <img class="festivals nocturnal" src="/assets/images/nocturnal.png"/></a>
+        <!-- </div> -->
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <!-- <div class="logo-container"> -->
+        <a href="http://escapehalloween.com/" class="festival-link esc" target="_blank">
+        <img class="festivals escape" src="/assets/images/escape-2.png"/></a>
+          <!-- </div> -->
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <!-- <div class="logo-container"> -->
+        <a href="http://orlando.electricdaisycarnival.com/" class="festival-link ed" target="_blank">
+        <img class="festivals electric orlando" src="/assets/images/edc-orl.png"/></a>
+          <!-- </div> -->
+        </div>
+        <!-- </div> -->
+      </div>
 
       <section class="container content-section">
         <hr class="section-break">
@@ -76,29 +148,14 @@
         </table>
       </section>
 
-      <section class="container content-section">
-        <hr class="section-break">
-        <h1 class="text-center"> Venue Activations </h1>
-        <div class="image-container">
-          <img class="background-image" src="/assets/images/CEB_MAP1.png"/>
-
-        </div>
-      </section>
 
 
-      <section class="container content-section">
-        <hr class="section-break">
-        <h1 class="text-center"> Festival Activations </h1>
-        <div class="image-container">
-          <a href="http://www.springawakeningfestival.com/" target="_blank"><img class="col-xs-12 col-sm-6" src="/assets/images/springawakening.png"/></a>
-          <a href="http://www.nocturnalwonderland.com/" target="_blank"><img class="col-xs-12 col-sm-6" src="/assets/images/nocturnal.png"/></a>
-          <a href="http://lasvegas.electricdaisycarnival.com/" target="_blank"><img class="col-xs-12 col-sm-6" src="/assets/images/edc.png"/></a>
-          <a href="http://escapehalloween.com/" target="_blank" ><img class="col-xs-12 col-sm-6" src="/assets/images/escape.png"/></a>
-          <a href="http://hardfest.com/hardsummer" target="_blank" ><img class="col-xs-12 col-sm-6" src="/assets/images/HARD1.png"/></a>
-          <a href="http://orlando.electricdaisycarnival.com/" target="_blank" ><img class="col-xs-12 col-sm-6" src="/assets/images/edcORL.png"/></a>
-        </div>
-      </section>
-    </div>
+      <!-- <section class="container content-section"> -->
+
+      <!-- </div>
+
+      </section> -->
+
 
 
 

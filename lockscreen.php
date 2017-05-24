@@ -27,7 +27,11 @@
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+  <script>
 
+
+
+  </script>
 
   <video  playsinline autoplay muted loop poster="" id="bgvid" loop autoplay="autoplay">
       <!-- <source src="/assets/videos/CEB-sand-logo.webm" type="video/webm"> -->
@@ -43,12 +47,12 @@
 
     <div class="circles-verify-container">
 
-      <input class="month small" type="text" placeholder="MM" maxlength="2">
-      <input class="day small" type="text" placeholder="DD" maxlength="2">
-      <input class="year small" type="text" placeholder="YYYY" maxlength="4">
+      <input class="month small required" type="text" id="in1" placeholder="MM" maxlength="2" size="2" onkeyup="autoTab(this,in2)">
+      <input class="day small required" type="text" id="in2" placeholder="DD" maxlength="2" size="2" onkeyup="autoTab(this,in3)">
+      <input class="year small required" type="text" id="in3" placeholder="YYYY"  maxlength="4" >
     </div>
 
-        <div class="submit-btn-container landscape"> <button formaction="submit" onclick="" type="button" class="submit-btn"> ENTER </button> </div>
+        <div class="submit-btn-container landscape"> <button formaction="submit"  type="button" class="submit-btn"> ENTER </button> </div>
 
   </div>
 </div>
@@ -68,5 +72,6 @@
          </div>
 
 </div>
+
 </body>
 </html>

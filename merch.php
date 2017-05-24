@@ -17,7 +17,7 @@
   <?php include 'assets/html/nav.html'; ?>
 
   <div class="main-info">
-    <h1 class="text-center"> Merch </h1>
+    <h1 class="text-center"> Beach Shop </h1>
     <section class="container content-section">
 
       <div id='collection-component-bc5a5d69268'></div>
@@ -68,7 +68,7 @@
           },
           "styles": {
             "product": {
-              "font-family": "Calson Antique Bold, serif;",
+              "font-family": "'Helvetica', serif",
               "font-weight": "bolder",
               "color": "#6f4d2f",
               "margin-bottom": "40px",
@@ -81,7 +81,7 @@
             },
             "button": {
               "background-color": "#10afe3",
-              "font-family": "Calson Antique Bold, serif;",
+              "font-family": "'Helvetica', serif",
               "font-weight": "bolder",
               "letter-spacing": "1px",
               "font-size": "13px",

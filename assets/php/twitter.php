@@ -8,7 +8,7 @@ function getTweets(){
           'consumer_secret'           => "vgpJcVDEzUR2a4SJ0hjAktHI4qYS9bgXlEhHD5fMUdE8IMIAMK"
        );
   $ta_url='https://api.twitter.com/1.1/statuses/user_timeline.json';
-  $getfield = '?screen_name=ElectricBeach&count=10';
+  $getfield = '?screen_name=ElectricBeach&include_rts=false&count=30';
   $requestMethod = 'GET';
   $twitter = new TwitterAPIExchange($settings);
   $follow_count=$twitter->setGetfield($getfield)
@@ -16,34 +16,49 @@ function getTweets(){
   ->performRequest();
   $json_twitter = json_decode($follow_count, true);
   $tweetsObj = new stdClass();
+  $count = 0;
   foreach($json_twitter as $tweet){
+    if(!$tweet['entities']['media'][0]['media_url'] ){
+      continue;
+    }
+    if($count == 12){
+      break;
+    }
       $id = $tweet['id'];
       $tweetsObj->$id = new stdClass();
       $tweetsObj->$id->text = linkTweetText($tweet['text']);
       $tweetsObj->$id->username = 'Electric Beach';
       $tweetsObj->$id->created = $tweet['created_at'];
-  }
+      $tweetsObj->$id->media = $tweet['entities']['media'][0]['media_url'];
+
+      $count++;
+   }
   displayTweets($tweetsObj);
 }
 
 function displayTweets($tweetsObj){
   foreach ($tweetsObj as $key => $value) {
-    echo '<div class="col-xs-12">
-            <div class="pull-left">
-              <a href="https://twitter.com/ElectricBeach" target="_blank">
-                <img src="https://pbs.twimg.com/profile_images/834846942614081536/HQhHYXNC_normal.jpg"/>
+    echo '<div class="card">
+            <div class="card-content">
+              <div class="card-title">
+              <a href="https://twitter.com/ElectricBeach/status/'.$key.'" target=_blank">
+                <img class="card-header-image" src="'.$value->media.'"/> </div>
+                <div class="card-body">
+                  <div class="card-body-header">
+                  <div class="insta-social-icon"> <i class="fa fa-twitter social-card" aria-hidden="true"></i> </div>
+                  <div class="account-name">@coronaelectricbeach </div>
+                </div>
               </a>
-            </div>
-
-            <div class="twitter-info pull-left">
-              <a href="https://twitter.com/ElectricBeach" target="_blank">
-                <p class="d-inline">'.$value->username.'</p>
-              </a>
-              <p>'.$value->text.'</p>
-              <div class="date-time">'.getPastTime($value->created).' ago</div>
+              <p class="card-body-caption"> '.$value->text.' </p>
+               </div>
             </div>
           </div>';
-  }
+
+
+}
+
+
+
 
 }
 

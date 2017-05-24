@@ -1,5 +1,12 @@
 @import 'utility';
 
+
+
+.mermaid-text{
+    line-height:1.2em;
+}
+
+
 .background-image{
   width:100%;
 }
@@ -9,56 +16,11 @@
 }
 
 
-.video-banner {
-  // padding-top: 211px;
-  // padding-bottom: 211px;
-  // height: auto;
+img.festivals{
+  width:100%;
 }
 
-.main-video {
-  // display: block;
-  // width: 100%;
-  // height: auto;
-  // position: fixed;
-  // top: 50%;
-  // left: 50%;
-  // min-width: 100%;
-  // min-height: 100%;
-  // width: auto;
-  // height: auto;
-  // z-index: -100;
-  // -ms-transform: translateX(-50%) translateY(-50%);
-  // -moz-transform: translateX(-50%) translateY(-50%);
-  // -webkit-transform: translateX(-50%) translateY(-50%);
-  // transform: translateX(-50%) translateY(-50%);
-}
 
-.footer-content {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-size: 18px;
-    padding-top: 15px;
-}
-
-footer {
-  padding-top: 85px;
-  text-align: center;
-}
-
-.social-icon-footer{
-  display:inline;
-  line-height:25px;
-  margin-right:10px;
-  text-align: center;
-  width:30px;
-  height:30px;
-  background-color: $corona-brown;
-}
-
-.fa.icon-footer:hover{
-  color:white;
-}
-i.fa.icon-footer {
-    color: $sand-yellow;
+.logo-container {
+    padding-top: 20px;
 }
