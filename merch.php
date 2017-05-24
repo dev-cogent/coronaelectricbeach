@@ -21,6 +21,7 @@
     <section class="container content-section">
 
       <div id='collection-component-bc5a5d69268'></div>
+      <div id='collection-component-9a262f149ff'></div>
       <script type="text/javascript">
       /*<![CDATA[*/
 
@@ -54,7 +55,7 @@
           ShopifyBuy.UI.onReady(client).then(function (ui) {
             ui.createComponent('collection', {
               id: 427253837,
-              node: document.getElementById('collection-component-bc5a5d69268'),
+              node: document.getElementById('collection-component-9a262f149ff'),
               moneyFormat: '%24%7B%7Bamount%7D%7D',
               options: {
         "product": {
@@ -68,11 +69,6 @@
           },
           "styles": {
             "product": {
-              "font-family": "'Helvetica', serif",
-              "font-weight": "bolder",
-              "color": "#6f4d2f",
-              "margin-bottom": "40px",
-
               "@media (min-width: 601px)": {
                 "max-width": "calc(33.33333% - 30px)",
                 "margin-left": "30px",
@@ -81,16 +77,15 @@
             },
             "button": {
               "background-color": "#10afe3",
-              "font-family": "'Helvetica', serif",
-              "font-weight": "bolder",
-              "letter-spacing": "1px",
-              "font-size": "13px",
               ":hover": {
                 "background-color": "#0e9ecc"
               },
               ":focus": {
                 "background-color": "#0e9ecc"
               }
+            },
+            "title": {
+              "font-size": "16px"
             }
           }
         },
@@ -151,6 +146,9 @@
               ":focus": {
                 "background-color": "#0e9ecc"
               }
+            },
+            "count": {
+              "font-size": "16px"
             }
           }
         },
@@ -172,7 +170,11 @@
       </script>
       </section>
   </div>
-
+  <style>
+  .shopify-buy__product__title{
+    font-size: 16px !important;
+  }
+  </style>
   <?php include 'assets/html/footer.html'; ?>
   </body>
 </html>

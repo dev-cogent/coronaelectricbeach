@@ -46,14 +46,14 @@ error_reporting(-1);
 
 
 
-      <hr class="section-break">
+      <!-- <hr class="section-break">
       <h1 class="text-center headline"><a href="https://twitter.com/electricbeach" target="_blank"> Latest Tweets @electricbeach </a></h1>
       <div class="social-card container">
         <div class="cards">
 
       <?php  getTweets(); ?>
     </div>
-  </div>
+  </div> -->
   </div>
 
 
