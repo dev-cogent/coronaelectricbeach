@@ -3,7 +3,6 @@
 
 <html lang="en">
   <head>
-    <?php include 'assets/html/head.html'; ?>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -11,6 +10,10 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-WQ86GL9');</script>
     <!-- End Google Tag Manager -->
+    <?php include 'assets/html/head.html'; ?>
+
+
+
     <script type="text/javascript" src="/assets/js/index.js"></script>
     <link rel="stylesheet" href="/assets/css/nav-bar.css">
     <link rel="stylesheet" href="/assets/css/index.css">
