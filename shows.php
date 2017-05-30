@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WQ86GL9');</script>
+    <!-- End Google Tag Manager -->
     <?php include 'assets/html/head.html'; ?>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/assets/css/nav-bar.css">
@@ -16,6 +23,10 @@
 
 
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WQ86GL9"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
   <!-- Start NAV bar -->
   <?php include 'assets/html/nav.html'; ?>
@@ -47,8 +58,20 @@
             foreach($bandsInTown as $info){
               echo'
               <tr>
+
                 <td class="band-date">'.bandDateConversion($info['datetime']).'</td>
-                <td> <a href="https://bandsintown.com/event/14134447?artist=Electric%20Beach" target="_blank">'.$info['venue']['name'].'</a><div class="sub-text">w/'.$info['artists'][1]['name'].'</div></td>
+                <td> <a href="https://bandsintown.com/event/'.$info['id'].'" target="_blank">'.$info['venue']['name'].'</a><div class="sub-text">w/';
+                for($i = 1; $i < count($info['artists']); $i++){
+                  if(count($info['artists']) == $i + 1){
+                    echo $info['artists'][$i]['name'];
+                  }else{
+                    echo $info['artists'][$i]['name'].', ';
+                  }
+
+                }
+                echo'
+
+                </div></td>
                 <td>'.$info['formatted_location'].'</td>
                 <td>';
                   if($info['ticket_url']){

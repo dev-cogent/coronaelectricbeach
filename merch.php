@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WQ86GL9');</script>
+  <!-- End Google Tag Manager -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <?php include 'assets/html/head.html'; ?>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,7 +19,10 @@
 
 
   <body>
-
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WQ86GL9"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
   <!-- Start NAV bar -->
   <?php include 'assets/html/nav.html'; ?>
 
@@ -21,6 +31,7 @@
     <section class="container content-section">
 
       <div id='collection-component-bc5a5d69268'></div>
+      <div id='collection-component-9a262f149ff'></div>
       <script type="text/javascript">
       /*<![CDATA[*/
 
@@ -54,7 +65,7 @@
           ShopifyBuy.UI.onReady(client).then(function (ui) {
             ui.createComponent('collection', {
               id: 427253837,
-              node: document.getElementById('collection-component-bc5a5d69268'),
+              node: document.getElementById('collection-component-9a262f149ff'),
               moneyFormat: '%24%7B%7Bamount%7D%7D',
               options: {
         "product": {
@@ -68,11 +79,6 @@
           },
           "styles": {
             "product": {
-              "font-family": "'Helvetica', serif",
-              "font-weight": "bolder",
-              "color": "#6f4d2f",
-              "margin-bottom": "40px",
-
               "@media (min-width: 601px)": {
                 "max-width": "calc(33.33333% - 30px)",
                 "margin-left": "30px",
@@ -81,16 +87,15 @@
             },
             "button": {
               "background-color": "#10afe3",
-              "font-family": "'Helvetica', serif",
-              "font-weight": "bolder",
-              "letter-spacing": "1px",
-              "font-size": "13px",
               ":hover": {
                 "background-color": "#0e9ecc"
               },
               ":focus": {
                 "background-color": "#0e9ecc"
               }
+            },
+            "title": {
+              "font-size": "16px"
             }
           }
         },
@@ -151,6 +156,9 @@
               ":focus": {
                 "background-color": "#0e9ecc"
               }
+            },
+            "count": {
+              "font-size": "16px"
             }
           }
         },
@@ -172,7 +180,11 @@
       </script>
       </section>
   </div>
-
+  <style>
+  .shopify-buy__product__title{
+    font-size: 16px !important;
+  }
+  </style>
   <?php include 'assets/html/footer.html'; ?>
   </body>
 </html>

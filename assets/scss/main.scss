@@ -1,9 +1,16 @@
 @import 'utility';
+ .container{
+      @media screen and (min-width: 1000px){
+        max-width: 90%;
+      }
+  }
+
+
 html{
   overflow-x: hidden;
   box-sizing: border-box;
   // Avoid scrollbar "jump": http://css-tricks.com/elegant-fix-jumping-scrollbar-issue/
-  margin-left: calc(100vw - 100%);
+  // margin-left: calc(100vw - 100%);
 }
 
 body{
@@ -84,7 +91,7 @@ h1{
   overflow:hidden;
   display:block;
   height: 550px;
-    @media screen and (max-width: 1200px){
+    @media screen and (max-width: 1400px){
       height:330px;
     }
 }
