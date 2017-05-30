@@ -58,8 +58,20 @@
             foreach($bandsInTown as $info){
               echo'
               <tr>
+
                 <td class="band-date">'.bandDateConversion($info['datetime']).'</td>
-                <td> <a href="https://bandsintown.com/event/14134447?artist=Electric%20Beach" target="_blank">'.$info['venue']['name'].'</a><div class="sub-text">w/'.$info['artists'][1]['name'].'</div></td>
+                <td> <a href="https://bandsintown.com/event/'.$info['id'].'" target="_blank">'.$info['venue']['name'].'</a><div class="sub-text">w/';
+                for($i = 1; $i < count($info['artists']); $i++){
+                  if(count($info['artists']) == $i + 1){
+                    echo $info['artists'][$i]['name'];
+                  }else{
+                    echo $info['artists'][$i]['name'].', ';
+                  }
+
+                }
+                echo'
+
+                </div></td>
                 <td>'.$info['formatted_location'].'</td>
                 <td>';
                   if($info['ticket_url']){
