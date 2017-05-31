@@ -59,7 +59,7 @@
               echo'
               <tr>
 
-                <td class="band-date">'.bandDateConversion($info['datetime']).'</td>
+                <td class="band-date" id="row-no-padding">'.bandDateConversion($info['datetime']).'</td>
                 <td> <a href="https://bandsintown.com/event/'.$info['id'].'" target="_blank">'.$info['venue']['name'].'</a><div class="sub-text">w/';
                 for($i = 1; $i < count($info['artists']); $i++){
                   if(count($info['artists']) == $i + 1){
