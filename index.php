@@ -65,53 +65,57 @@
           <img class="background-image" src="/assets/images/CEB_MAP1.png"/>
 
         </div>
+
       </section>
 
 
-      <hr class="section-break">
-      <h1 class="text-center"> Festival Activations </h1>
-      <div class="container">
+      <section class="container content-section">
+        <hr class="section-break">
+        <h1 class="text-center"> Festival Activations </h1>
+
       <!-- <div class="row"> -->
       <!-- <div class="col-xs-12 col-sm-12"> -->
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <div class="col-xs-12 col-sm-6 col-lg-4">
           <!-- <div class="logo-container"> -->
         <a href="http://lasvegas.electricdaisycarnival.com/" class="festival-link vegas" target="_blank">
         <img class="festivals electric lasvegas" src="/assets/images/edc-las-vegas-optimized.png"/></a>
         <!-- </div> -->
           </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-          <!-- <div class="logo-container"> -->
-        <a href="http://www.springawakeningfestival.com/" class="festival-link spring" target="_blank">
-        <img class="festivals spring" src="/assets/images/springawakening.png"/></a>
-          <!-- </div> -->
-      </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+
+          <a href="http://www.springawakeningfestival.com/" class="festival-link spring" target="_blank">
+          <img class="festivals spring" src="/assets/images/springawakening.png"/></a>
+
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-lg-4">
             <!-- <div class="logo-container hard"> -->
         <a href="http://hardfest.com/hardsummer" class="festival-link hardfest" target="_blank">
         <img class="festivals hard" src="/assets/images/hard-3.png"/></a>
             <!-- </div> -->
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <!-- <div class="logo-container"> -->
+        <a href="http://orlando.electricdaisycarnival.com/" class="festival-link ed" target="_blank">
+        <img class="festivals electric orlando" src="/assets/images/edc-orl.png"/></a>
+          <!-- </div> -->
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-4">
          <!-- <div class="logo-container"> -->
         <a href="http://www.nocturnalwonderland.com/" class="festival-link noct" target="_blank">
         <img class="festivals nocturnal" src="/assets/images/nocturnal.png"/></a>
         <!-- </div> -->
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <div class="col-xs-12 col-sm-6 col-lg-4">
           <!-- <div class="logo-container"> -->
         <a href="http://escapehalloween.com/" class="festival-link esc" target="_blank">
         <img class="festivals escape" src="/assets/images/escape-2.png"/></a>
           <!-- </div> -->
         </div>
 
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-          <!-- <div class="logo-container"> -->
-        <a href="http://orlando.electricdaisycarnival.com/" class="festival-link ed" target="_blank">
-        <img class="festivals electric orlando" src="/assets/images/edc-orl.png"/></a>
-          <!-- </div> -->
-        </div>
+
         <!-- </div> -->
-      </div>
+      </section>
 
       <section class="container content-section">
         <hr class="section-break">
@@ -125,7 +129,7 @@
               echo'
               <tr>
 
-                <td class="band-date">'.bandDateConversion($info['datetime']).'</td>
+                <td class="band-date" id="row-no-padding">'.bandDateConversion($info['datetime']).'</td>
                 <td> <a href="https://bandsintown.com/event/'.$info['id'].'" target="_blank">'.$info['venue']['name'].'</a><div class="sub-text">w/';
                 for($i = 1; $i < count($info['artists']); $i++){
                   if(count($info['artists']) == $i + 1){
