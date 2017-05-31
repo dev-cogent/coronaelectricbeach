@@ -8,8 +8,15 @@
   line-height:25px;
   width:30px;
   height:30px;
+  background-color: $corona-brown;
   @media screen and (max-width:700px){
     line-height: 30px;
+  }
+  &:hover{
+    background-color: #FBEF82;
+    a>i{
+      color:#6f4d2f;
+    }
   }
 
 }
@@ -33,19 +40,8 @@ footer {
   text-align: center;
 }
 
-.social-icon-footer{
-  display:inline-block;
-  line-height:25px;
-  margin-right:10px;
-  text-align: center;
-  width:30px;
-  height:30px;
-  background-color: $corona-brown;
-}
 
-i.fa.icon-footer:hover{
-  color:$corona-brown;
-}
+
 i.fa.icon-footer {
     color: $sand-yellow;
 }
@@ -57,4 +53,3 @@ img.festivals{
 .empty-space {
     padding-top: 20px;
 }
-
