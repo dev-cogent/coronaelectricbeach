@@ -94,12 +94,7 @@
         <img class="festivals hard" src="/assets/images/hard-3.png"/></a>
             <!-- </div> -->
         </div>
-        <div class="col-xs-12 col-sm-6 col-lg-4">
-          <!-- <div class="logo-container"> -->
-        <a href="http://orlando.electricdaisycarnival.com/" class="festival-link ed" target="_blank">
-        <img class="festivals electric orlando" src="/assets/images/edcORL6_1.png"/></a>
-          <!-- </div> -->
-        </div>
+
         <div class="col-xs-12 col-sm-6 col-lg-4">
          <!-- <div class="logo-container"> -->
         <a href="http://www.nocturnalwonderland.com/" class="festival-link noct" target="_blank">
@@ -113,7 +108,12 @@
           <!-- </div> -->
         </div>
 
-
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <!-- <div class="logo-container"> -->
+        <a href="http://orlando.electricdaisycarnival.com/" class="festival-link ed" target="_blank">
+        <img class="festivals electric orlando" src="/assets/images/edcORL6_1.png"/></a>
+          <!-- </div> -->
+        </div>
         <!-- </div> -->
       </section>
 
