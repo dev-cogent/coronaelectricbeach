@@ -42,7 +42,7 @@
   if(screen && screen.width > 480){
     document.write('<section class="video-section">'+
       '<video class="main-video" loop autoplay="autoplay">'+
-        '<source src="/assets/videos/CEB-web-animation.mp4" type="video/mp4">'+
+        '<source src="/assets/videos/CEB-web-animation6.mp4" type="video/mp4">'+
       '</video>'+
     '</section>');
   }
@@ -97,7 +97,7 @@
         <div class="col-xs-12 col-sm-6 col-lg-4">
           <!-- <div class="logo-container"> -->
         <a href="http://orlando.electricdaisycarnival.com/" class="festival-link ed" target="_blank">
-        <img class="festivals electric orlando" src="/assets/images/edc-orl.png"/></a>
+        <img class="festivals electric orlando" src="/assets/images/edcORL6_1.png"/></a>
           <!-- </div> -->
         </div>
         <div class="col-xs-12 col-sm-6 col-lg-4">

@@ -37,7 +37,7 @@
   if(screen && screen.width > 480){
     document.write('<section class="video-section">'+
       '<video muted class="main-video" loop autoplay="autoplay" >'+
-        '<source src="/assets/videos/___CEB_VID_4_WEBSITE.mp4" type="video/mp4">'+
+        '<source src="/assets/videos/corona6_1_2017.mp4" type="video/mp4">'+
       '</video>'+
     '</section>');
   }
