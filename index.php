@@ -94,6 +94,8 @@
         <img class="festivals hard" src="/assets/images/hard-3.png"/></a>
             <!-- </div> -->
         </div>
+
+      <div class="white-space-1"></div>
         <div class="col-xs-12 col-sm-6 col-lg-4">
           <!-- <div class="logo-container"> -->
         <a href="http://orlando.electricdaisycarnival.com/" class="festival-link ed" target="_blank">
