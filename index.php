@@ -95,6 +95,16 @@
             <!-- </div> -->
         </div>
 
+<<<<<<< HEAD
+      <div class="white-space-1"></div>
+        <div class="col-xs-12 col-sm-6 col-lg-4">
+          <!-- <div class="logo-container"> -->
+        <a href="http://orlando.electricdaisycarnival.com/" class="festival-link ed" target="_blank">
+        <img class="festivals electric orlando" src="/assets/images/edcORL6_1.png"/></a>
+          <!-- </div> -->
+        </div>
+=======
+>>>>>>> dfa82328c7441f7765aba43638f2c69097f24e30
         <div class="col-xs-12 col-sm-6 col-lg-4">
          <!-- <div class="logo-container"> -->
         <a href="http://www.nocturnalwonderland.com/" class="festival-link noct" target="_blank">
