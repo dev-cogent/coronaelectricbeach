@@ -75,55 +75,45 @@
 
       <!-- <div class="row"> -->
       <!-- <div class="col-xs-12 col-sm-12"> -->
-        <div class="col-xs-12 col-sm-6 col-lg-4">
+        <div class="col-xs-12 col-sm-6 col-lg-4 festival-container">
           <!-- <div class="logo-container"> -->
         <a href="http://lasvegas.electricdaisycarnival.com/" class="festival-link vegas" target="_blank">
         <img class="festivals electric lasvegas" src="/assets/images/edc-las-vegas-optimized.png"/></a>
         <!-- </div> -->
           </div>
-        <div class="col-xs-12 col-sm-6 col-lg-4">
+        <div class="col-xs-12 col-sm-6 col-lg-4 festival-container">
 
           <a href="http://www.springawakeningfestival.com/" class="festival-link spring" target="_blank">
           <img class="festivals spring" src="/assets/images/springawakening.png"/></a>
 
         </div>
 
-        <div class="col-xs-12 col-sm-6 col-lg-4">
+        <div class="col-xs-12 col-sm-6 col-lg-4 festival-container">
             <!-- <div class="logo-container hard"> -->
         <a href="http://hardfest.com/hardsummer" class="festival-link hardfest" target="_blank">
         <img class="festivals hard" src="/assets/images/hard-3.png"/></a>
             <!-- </div> -->
         </div>
 
-<<<<<<< HEAD
-      <div class="white-space-1"></div>
-        <div class="col-xs-12 col-sm-6 col-lg-4">
+        <div class="col-xs-12 col-sm-6 col-lg-4 festival-container">
           <!-- <div class="logo-container"> -->
         <a href="http://orlando.electricdaisycarnival.com/" class="festival-link ed" target="_blank">
         <img class="festivals electric orlando" src="/assets/images/edcORL6_1.png"/></a>
           <!-- </div> -->
         </div>
-=======
->>>>>>> dfa82328c7441f7765aba43638f2c69097f24e30
-        <div class="col-xs-12 col-sm-6 col-lg-4">
+        <div class="col-xs-12 col-sm-6 col-lg-4 festival-container">
          <!-- <div class="logo-container"> -->
         <a href="http://www.nocturnalwonderland.com/" class="festival-link noct" target="_blank">
         <img class="festivals nocturnal" src="/assets/images/nocturnal.png"/></a>
         <!-- </div> -->
         </div>
-        <div class="col-xs-12 col-sm-6 col-lg-4">
+        <div class="col-xs-12 col-sm-6 col-lg-4 festival-container">
           <!-- <div class="logo-container"> -->
         <a href="http://escapehalloween.com/" class="festival-link esc" target="_blank">
         <img class="festivals escape" src="/assets/images/escape-2.png"/></a>
           <!-- </div> -->
         </div>
 
-        <div class="col-xs-12 col-sm-6 col-lg-4">
-          <!-- <div class="logo-container"> -->
-        <a href="http://orlando.electricdaisycarnival.com/" class="festival-link ed" target="_blank">
-        <img class="festivals electric orlando" src="/assets/images/edcORL6_1.png"/></a>
-          <!-- </div> -->
-        </div>
         <!-- </div> -->
       </section>
 
