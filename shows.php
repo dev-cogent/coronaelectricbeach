@@ -138,7 +138,7 @@
           ],
           '24'=>[
             url=>'/assets/images/Autograf_LA.jpg',
-            data=>NULL,
+            data=>'/assets/videos/CEB_Autograf_RecapVideo_Resized.mov',
             name=>'Autograf | LA 5.27.17 '
           ],
           '23'=>[
