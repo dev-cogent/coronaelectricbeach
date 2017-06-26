@@ -99,58 +99,104 @@
       <hr class="section-break">
       <h1 class="text-center"> Past Shows </h1>
       <?php
-        $imageObj = (object) [
-          '0'=>[
+        $imageObj =[
+
+          '31'=>[
+            url=>'/assets/images/Jax Jones_LA.JPG',
+            data=>NULL,
+            name=>'Jax Jones | LA 6.24.17'
+          ],
+          '30'=>[
+            url=>'/assets/images/Ephwurd_EDC Las Vegas.jpg',
+            data=>NULL,
+            name=>'Ephwurd | EDC Las Vegas 6.18.17'
+          ],
+          '29'=>[
+            url=>'/assets/images/Ookay_EDC Las Vegas.jpg',
+            data=>NULL,
+            name=>'Ookay | EDC Las Vegas 6.17.17'
+          ],
+          '28'=>[
+            url=>'/assets/images/Ghastly_EDC Las Vegas.JPG',
+            data=>NULL,
+            name=>'Ghastly | EDC Las Vegas 6.16.17'
+          ],
+          '27'=>[
+            url=>'/assets/images/TJR_SpringAwakening.jpg',
+            data=>NULL,
+            name=>'TJR | Spring Awakening 6.11.17'
+          ],
+          '26'=>[
+            url=>'/assets/images/Paul Oakenfold_Spring Awakening.jpg',
+            data=>NULL,
+            name=>'Paul Oakenfold | Spring Awakening 6.10.17'
+          ],
+          '25'=>[
+            url=>'/assets/images/DJ Vanic_Spring Awakening.jpeg',
+            data=>NULL,
+            name=>'Vanic | Spring Awakening 6.9.17'
+          ],
+          '24'=>[
+            url=>'/assets/images/Autograf_LA.jpg',
+            data=>NULL,
+            name=>'Autograf | LA 5.27.17 '
+          ],
+          '23'=>[
+            url=>'/assets/images/Lost Frequencies_Dallas.jpg',
+            data=>'/assets/videos/Corona Electric Beach w- Lost Frequencies.mp4',
+            name=>'Lost Frequencies | Dallas 5.27.17'
+          ],
+          '22'=>[
             url=>'/assets/images/Chromeo+MMW.jpg',
             data=>NULL,
             name=>'CHROMEO (DJ SET) | MIAMI x MMW 3.23.17'
           ],
-          '1'=>[
+          '21'=>[
             url=>'/assets/images/Watermat.jpg',
             data=>NULL,
             name=>'WATERMÄT | MIAMI 2.19.17'
           ],
-          '2'=>[
+          '20'=>[
             url=>'/assets/images/Gryffin.jpg',
             data=>'/assets/videos/gryffin.mp4',
             name=>'GRYFFIN | MIAMI 1.14.16'
           ],
-          '3'=>[
+          '19'=>[
             url=>'/assets/images/Chus.jpeg',
             data=>'/assets/videos/Ceballos.mp4',
             name=>'CHUS & CEBALLOS | FORT LAUDERDALE 10.29.16'
           ],
-          '4'=>[
+          '18'=>[
             url=>'/assets/images/armin.jpg',
             data=>'/assets/videos/Matoma.mp4',
             name=>'MATOMA | LA 8.14.16'
           ],
-          '5'=>[
+          '17'=>[
             url=>'/assets/images/thomas_jack.jpg',
             data=>'/assets/videos/tj.mp4',
             name=>'THOMAS JACK | DENVER 8.13.16'
           ],
-          '6'=>[
+          '16'=>[
             url=>'/assets/images/Atrak.jpg',
             data=>'/assets/videos/ATRAK.mp4',
             name=>'A-TRAK | CHICAGO x VOLLEYWOOD 7.16.16'
           ],
-          '7'=>[
+          '15'=>[
             url=>'/assets/images/snapping.jpg',
             data=>NULL,
             name=>'ILLENIUM | NOCTURNAL WONDERLAND 9.2.16'
           ],
-          '8'=>[
+          '14'=>[
             url=>'/assets/images/Brenmar.jpg',
             data=>'/assets/videos/ATRAK.mp4',
             name=>'BRENMAR | CHICAGO x VOLLEYWOOD 7.16.16'
           ],
-          '9'=>[
+          '13'=>[
             url=>'/assets/images/greenhair.jpg',
             data=>'/assets/videos/Drums.mp4',
             name=>'APE DRUMS | DALLAS 5.28.16'
           ],
-          '10'=>[
+          '12'=>[
             url=>'/assets/images/curlyhair.jpg',
             data=>'/assets/videos/Jillionaire.mp4',
             name=>'JILLIONAIRE | NEW YORK 6.18.16'
@@ -160,63 +206,64 @@
             data=>NULL,
             name=>'ASTRONOMAR | NOCTURNAL WONDERLAND 9.2.16'
           ],
-          '12'=>[
+          '10'=>[
             url=>'/assets/images/SNBRN.jpg',
             data=>NULL,
             name=>'HOOK N SLING | DALLAS 5.27.16'
           ],
-          '13'=>[
+          '9'=>[
             url=>'/assets/images/BonnieClyde.jpg',
             data=>NULL,
             name=>'BONNIE N CLYDE | EDC ORLANDO 11.4.16'
           ],
-          '14'=>[
+          '8'=>[
             url=>'/assets/images/HookNSling.jpg',
             data=>'/assets/videos/Sling.mp4',
             name=>'SNBRN | DALLAS 8.27.16'
           ],
-          '15'=>[
+          '7'=>[
             url=>'/assets/images/Virgil.jpg',
             data=>'/assets/videos/Garuda.mp4',
             name=>'VIRGIL | MONTAUK NY 7.2.16'
           ],
-          '16'=>[
+          '6'=>[
             url=>'/assets/images/Giraffage.jpg',
             data=>'/assets/videos/Cofresi.mp4',
             name=>'GIRAFFAGE | CHICAGO 6.15.16'
           ],
-          '17'=>[
+          '5'=>[
             url=>'/assets/images/LilJon.jpeg',
             data=>'/assets/videos/LilJon.mp4',
             name=>'LIL JON | ATL 8.6.16'
           ],
-          '18'=>[
+          '4'=>[
             url=>'/assets/images/DassikSelect.jpg',
             data=>NULL,
             name=>'EPHWURD | EDC ORLANDO 11.4.16'
           ],
-          '19'=>[
+          '3'=>[
             url=>'/assets/images/CheatCodes.jpg',
             data=>'/assets/videos/CheatCodes.mp4',
             name=>'CHEAT CODES | LA 5.22.16'
           ],
-          '20'=>[
+          '2'=>[
             url=>'/assets/images/PartyFavor.jpg',
             data=>'/assets/videos/ApeDrums.mp4',
             name=>'PARTY FAVOR | DALLAS 5.28.16'
           ],
-          '21'=>[
+          '1'=>[
             url=>'/assets/images/KeysNKrates1.jpg',
             data=>NULL,
             name=>'KEYS N KRATES | NOCTURNAL WONDERLAND 9.2.16'
           ],
-          '22'=>[
+          '0'=>[
             url=>'/assets/images/12thPlanet.jpg',
             data=>NULL,
             name=>'12TH PLANET | EDC ORLANDO 11.4.16'
           ],
         ];
-        foreach($imageObj as $key => $info){
+        // $imageObj = array_reverse($imageObj);
+        foreach($imageObj as $keyval => $info){
           echo '<div class="col-sm-12 col-md-6 col-lg-4 p-b-10 text-center vimeo-video" data-video="'.$info['data'].'">
                       <div class="image-container">
                           <div class="video-overlay">
